@@ -89,7 +89,7 @@
             display: block;
             margin: 15px auto 20px auto;
             border-radius: 8px;
-            background: #f8f9fa;
+            background: #ffffff;
             padding: 10px;
             border: 2px solid #dee2e6;
         }
@@ -321,6 +321,7 @@
                         <option value="length">Length</option>
                         <option value="height">Height</option>
                         <option value="width">Width</option>
+                        <option value="volume">Volume</option>
                     </select>
                 </div>
 
@@ -728,6 +729,9 @@
         let filteredData = [...gunData];
 
         function createCard(gun) {
+            const volume = (gun.length * gun.height * gun.width).toFixed(2);
+            gun.volume = parseFloat(volume); // Add volume to the gun object for sorting
+
             return `
                 <div class="card" data-category="${gun.category}">
                     <div class="model-name">${gun.name}</div>
@@ -744,6 +748,10 @@
                         <div class="spec-item">
                             <div class="spec-label">Width</div>
                             <div class="spec-value">${gun.width}"</div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-label">Volume</div>
+                            <div class="spec-value">${volume} in³</div>
                         </div>
                         <div class="spec-item">
                             <div class="spec-label">Weight</div>
