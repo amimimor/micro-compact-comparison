@@ -237,6 +237,63 @@
             margin-top: 0;
             color: #2c3e50;
         }
+        .controls-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border: 2px solid #e9ecef;
+        }
+        .control-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 15px;
+            align-items: center;
+        }
+        .control-row:last-child {
+            margin-bottom: 0;
+        }
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            min-width: 150px;
+        }
+        .control-group label {
+            font-weight: 600;
+            color: #495057;
+            font-size: 0.9em;
+        }
+        .control-group select, .control-group input[type="range"] {
+            padding: 8px 12px;
+            border: 2px solid #dee2e6;
+            border-radius: 6px;
+            font-size: 0.9em;
+        }
+        .control-group select:focus, .control-group input:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        .control-group button {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .control-group button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3);
+        }
+        .control-group span {
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 0.9em;
+        }
         .best-picks {
             background: linear-gradient(135deg, #f39c12, #e67e22);
             color: white;
@@ -262,8 +319,68 @@
         <h1>🔫 Top Handgun Comparison 2025</h1>
         <div class="subtitle">Micro Compact & Compact Handguns - Top US Sellers</div>
 
+        <!-- Controls Section -->
+        <div class="controls-section">
+            <div class="control-row">
+                <div class="control-group">
+                    <label for="categoryFilter">Category:</label>
+                    <select id="categoryFilter">
+                        <option value="all">All Categories</option>
+                        <option value="micro">Micro Compact</option>
+                        <option value="compact">Compact</option>
+                    </select>
+                </div>
+                
+                <div class="control-group">
+                    <label for="sortBy">Sort By:</label>
+                    <select id="sortBy">
+                        <option value="name">Model Name</option>
+                        <option value="price">Price</option>
+                        <option value="weight">Weight</option>
+                        <option value="capacity">Capacity</option>
+                        <option value="ratio">Weight/Capacity Ratio</option>
+                        <option value="length">Length</option>
+                        <option value="height">Height</option>
+                        <option value="width">Width</option>
+                    </select>
+                </div>
+                
+                <div class="control-group">
+                    <label for="sortOrder">Order:</label>
+                    <select id="sortOrder">
+                        <option value="asc">Ascending</option>
+                        <option value="desc">Descending</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="control-row">
+                <div class="control-group">
+                    <label for="priceFilter">Max Price:</label>
+                    <input type="range" id="priceFilter" min="300" max="2500" value="2500" step="50">
+                    <span id="priceValue">$2500</span>
+                </div>
+                
+                <div class="control-group">
+                    <label for="weightFilter">Max Weight:</label>
+                    <input type="range" id="weightFilter" min="15" max="30" value="30" step="0.5">
+                    <span id="weightValue">30 oz</span>
+                </div>
+                
+                <div class="control-group">
+                    <label for="capacityFilter">Min Capacity:</label>
+                    <input type="range" id="capacityFilter" min="10" max="17" value="10" step="1">
+                    <span id="capacityValue">10+1</span>
+                </div>
+                
+                <div class="control-group">
+                    <button id="resetFilters">Reset All</button>
+                </div>
+            </div>
+        </div>
+
         <div class="category-header">🎯 Micro Compact Handguns</div>
-        <div class="grid">
+        <div class="grid" id="microGrid">
             <div class="card">
                 <div class="model-name">Smith & Wesson Shield Plus</div>
                 <img src="https://via.placeholder.com/280x140/f8f9fa/6c757d?text=Shield+Plus" alt="S&W Shield Plus" class="gun-image">
@@ -562,7 +679,7 @@
         </div>
 
         <div class="category-header">🏆 Compact Handguns</div>
-        <div class="grid">
+        <div class="grid" id="compactGrid">
             <div class="card">
                 <div class="model-name">Glock 19 Gen 5</div>
                 <img src="https://us.glock.com/-/media/Project/Glock/US/US-Products/G19-Gen5/GLK-PIS-G19G5-01.png" alt="Glock 19 Gen 5" class="gun-image">
@@ -915,5 +1032,437 @@
             <p><strong>Pricing:</strong> All prices are approximate MSRP and street prices may vary significantly. All models listed are optics-ready or have optics-ready variants available.</p>
         </div>
     </div>
+
+    <script>
+        // Gun data array
+        const gunData = [
+            {
+                category: 'micro',
+                name: 'Smith & Wesson Shield Plus',
+                shortName: 'Shield Plus',
+                length: 6.1,
+                height: 4.6,
+                width: 1.1,
+                weight: 20.2,
+                barrel: 3.1,
+                capacity: 13,
+                capacityText: '10+1/13+1',
+                ratio: 1.55,
+                ratioText: '1.84 / 1.55',
+                price: 479,
+                features: 'Great value, excellent ergonomics, .30 Super Carry option'
+            },
+            {
+                category: 'micro',
+                name: 'Springfield Hellcat',
+                shortName: 'Hellcat',
+                length: 6.0,
+                height: 4.0,
+                width: 1.0,
+                weight: 17.9,
+                barrel: 3.0,
+                capacity: 13,
+                capacityText: '11+1/13+1',
+                ratio: 1.38,
+                ratioText: '1.63 / 1.38',
+                price: 569,
+                features: 'High capacity claim, U-dot sights, rail included'
+            },
+            {
+                category: 'micro',
+                name: 'Glock 43X',
+                shortName: 'Glock 43X',
+                length: 6.5,
+                height: 5.04,
+                width: 1.1,
+                weight: 19,
+                barrel: 3.43,
+                capacity: 11,
+                capacityText: '10+1',
+                ratio: 1.73,
+                ratioText: '1.73',
+                price: 580,
+                features: 'Glock reliability, A-Cut optics ready version available'
+            },
+            {
+                category: 'micro',
+                name: 'Canik Mete MC9',
+                shortName: 'Canik MC9',
+                length: 6.1,
+                height: 4.14,
+                width: 1.07,
+                weight: 18.9,
+                barrel: 3.18,
+                capacity: 16,
+                capacityText: '12+1/15+1',
+                ratio: 1.18,
+                ratioText: '1.45 / 1.18',
+                price: 399,
+                features: 'Best value, excellent trigger, optics ready, full accessory kit'
+            },
+            {
+                category: 'micro',
+                name: 'H&K CC9',
+                shortName: 'H&K CC9',
+                length: 6.0,
+                height: 4.6,
+                width: 1.1,
+                weight: 20,
+                barrel: 3.43,
+                capacity: 11,
+                capacityText: '10+1',
+                ratio: 1.82,
+                ratioText: '1.82',
+                price: 700,
+                features: 'New for 2025, HK quality, optics ready, Picatinny rail'
+            },
+            {
+                category: 'micro',
+                name: 'Taurus GX4',
+                shortName: 'Taurus GX4',
+                length: 5.9,
+                height: 4.8,
+                width: 1.1,
+                weight: 19,
+                barrel: 3.06,
+                capacity: 14,
+                capacityText: '11+1/13+1',
+                ratio: 1.46,
+                ratioText: '1.73 / 1.46',
+                price: 415,
+                features: 'Budget option, T.O.R.O. optics ready system'
+            },
+            {
+                category: 'micro',
+                name: 'FN Reflex',
+                shortName: 'FN Reflex',
+                length: 6.5,
+                height: 4.5,
+                width: 1.0,
+                weight: 21.5,
+                barrel: 4.0,
+                capacity: 16,
+                capacityText: '11+1/15+1',
+                ratio: 1.34,
+                ratioText: '1.96 / 1.34',
+                price: 650,
+                features: 'Easy slide manipulation, extended mag acts as grip extension'
+            },
+            {
+                category: 'micro',
+                name: 'Ruger Max-9',
+                shortName: 'Ruger Max-9',
+                length: 6.0,
+                height: 4.5,
+                width: 1.0,
+                weight: 18.4,
+                barrel: 3.2,
+                capacity: 13,
+                capacityText: '10+1/12+1',
+                ratio: 1.38,
+                ratioText: '1.67 / 1.38',
+                price: 544,
+                features: 'Sophisticated design, reliable, good accuracy'
+            },
+            {
+                category: 'compact',
+                name: 'Glock 19 Gen 5',
+                shortName: 'Glock 19 Gen5',
+                length: 7.36,
+                height: 5.04,
+                width: 1.34,
+                weight: 23.63,
+                barrel: 4.02,
+                capacity: 16,
+                capacityText: '15+1',
+                ratio: 1.48,
+                ratioText: '1.48',
+                price: 580,
+                features: 'Most popular platform, extensive aftermarket support'
+            },
+            {
+                category: 'compact',
+                name: 'Walther PDP Compact',
+                shortName: 'Walther PDP',
+                length: 7.0,
+                height: 5.3,
+                width: 1.4,
+                weight: 24.4,
+                barrel: 4.0,
+                capacity: 16,
+                capacityText: '15+1',
+                ratio: 1.53,
+                ratioText: '1.53',
+                price: 570,
+                features: 'Excellent ergonomics, SuperTerrain serrations, great value'
+            },
+            {
+                category: 'compact',
+                name: 'CZ P-10C',
+                shortName: 'CZ P-10C',
+                length: 7.3,
+                height: 5.2,
+                width: 1.26,
+                weight: 26,
+                barrel: 4.02,
+                capacity: 16,
+                capacityText: '15+1',
+                ratio: 1.63,
+                ratioText: '1.63',
+                price: 499,
+                features: 'Excellent trigger, great accuracy, low bore axis'
+            },
+            {
+                category: 'compact',
+                name: 'Smith & Wesson M&P 2.0 Compact',
+                shortName: 'S&W M&P 2.0',
+                length: 7.3,
+                height: 5.2,
+                width: 1.3,
+                weight: 24.7,
+                barrel: 4.0,
+                capacity: 16,
+                capacityText: '15+1',
+                ratio: 1.54,
+                ratioText: '1.54',
+                price: 479,
+                features: 'Aggressive texturing, reliable, good value'
+            },
+            {
+                category: 'compact',
+                name: 'Shadow Systems CR920',
+                shortName: 'Shadow CR920',
+                length: 6.6,
+                height: 4.9,
+                width: 1.06,
+                weight: 22,
+                barrel: 3.5,
+                capacity: 16,
+                capacityText: '15+1',
+                ratio: 1.38,
+                ratioText: '1.38',
+                price: 699,
+                features: 'Enhanced Glock platform, improved features'
+            },
+            {
+                category: 'compact',
+                name: 'Beretta PX4 Storm Compact',
+                shortName: 'Beretta PX4',
+                length: 6.2,
+                height: 5.0,
+                width: 1.42,
+                weight: 27.3,
+                barrel: 3.27,
+                capacity: 16,
+                capacityText: '15+1',
+                ratio: 1.71,
+                ratioText: '1.71',
+                price: 599,
+                features: 'DA/SA action, rotating barrel, soft shooting'
+            },
+            {
+                category: 'compact',
+                name: 'Staccato CS',
+                shortName: 'Staccato CS',
+                length: 6.9,
+                height: 5.4,
+                width: 1.2,
+                weight: 25.5,
+                barrel: 3.9,
+                capacity: 17,
+                capacityText: '16+1',
+                ratio: 1.50,
+                ratioText: '1.50',
+                price: 2299,
+                features: '2011 platform, exceptional trigger, premium build quality'
+            },
+            {
+                category: 'compact',
+                name: 'Israeli Weapon Industries Masada Slim',
+                shortName: 'IWI Masada',
+                length: 5.9,
+                height: 4.8,
+                width: 1.1,
+                weight: 20,
+                barrel: 3.4,
+                capacity: 14,
+                capacityText: '13+1',
+                ratio: 1.43,
+                ratioText: '1.43',
+                price: 415,
+                features: 'Budget option, reliable, simple design'
+            },
+            {
+                category: 'compact',
+                name: 'Canik TP9 Elite SC',
+                shortName: 'Canik TP9 SC',
+                length: 6.7,
+                height: 4.6,
+                width: 1.45,
+                weight: 22,
+                barrel: 3.6,
+                capacity: 16,
+                capacityText: '12+1/15+1',
+                ratio: 1.47,
+                ratioText: '1.83 / 1.47',
+                price: 419,
+                features: 'Excellent trigger, reliable, budget friendly'
+            }
+        ];
+
+        let filteredData = [...gunData];
+
+        function createCard(gun) {
+            return `
+                <div class="card" data-category="${gun.category}">
+                    <div class="model-name">${gun.name}</div>
+                    <img src="https://via.placeholder.com/280x140/f8f9fa/6c757d?text=${encodeURIComponent(gun.shortName)}" alt="${gun.name}" class="gun-image">
+                    <div class="spec-grid">
+                        <div class="spec-item">
+                            <div class="spec-label">Length</div>
+                            <div class="spec-value">${gun.length}"</div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-label">Height</div>
+                            <div class="spec-value">${gun.height}"</div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-label">Width</div>
+                            <div class="spec-value">${gun.width}"</div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-label">Weight</div>
+                            <div class="spec-value">${gun.weight} oz</div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-label">Barrel</div>
+                            <div class="spec-value">${gun.barrel}"</div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-label">Capacity</div>
+                            <div class="spec-value">${gun.capacityText}</div>
+                        </div>
+                    </div>
+                    <div class="capacity-score">Weight/Capacity: ${gun.ratioText}</div>
+                    <div class="price">MSRP: ${gun.price}</div>
+                    <div class="features">
+                        <div class="features-label">Key Features</div>
+                        <div class="features-text">${gun.features}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderGuns() {
+            const microGrid = document.getElementById('microGrid');
+            const compactGrid = document.getElementById('compactGrid');
+            
+            microGrid.innerHTML = '';
+            compactGrid.innerHTML = '';
+            
+            filteredData.forEach(gun => {
+                if (gun.category === 'micro') {
+                    microGrid.innerHTML += createCard(gun);
+                } else {
+                    compactGrid.innerHTML += createCard(gun);
+                }
+            });
+        }
+
+        function sortData(field, order) {
+            filteredData.sort((a, b) => {
+                let aVal = a[field];
+                let bVal = b[field];
+                
+                if (typeof aVal === 'string') {
+                    aVal = aVal.toLowerCase();
+                    bVal = bVal.toLowerCase();
+                }
+                
+                if (order === 'asc') {
+                    return aVal > bVal ? 1 : -1;
+                } else {
+                    return aVal < bVal ? 1 : -1;
+                }
+            });
+            renderGuns();
+        }
+
+        function filterData() {
+            const categoryFilter = document.getElementById('categoryFilter').value;
+            const maxPrice = parseInt(document.getElementById('priceFilter').value);
+            const maxWeight = parseFloat(document.getElementById('weightFilter').value);
+            const minCapacity = parseInt(document.getElementById('capacityFilter').value);
+            
+            filteredData = gunData.filter(gun => {
+                const categoryMatch = categoryFilter === 'all' || gun.category === categoryFilter;
+                const priceMatch = gun.price <= maxPrice;
+                const weightMatch = gun.weight <= maxWeight;
+                const capacityMatch = gun.capacity >= minCapacity;
+                
+                return categoryMatch && priceMatch && weightMatch && capacityMatch;
+            });
+            
+            // Re-apply current sort
+            const sortBy = document.getElementById('sortBy').value;
+            const sortOrder = document.getElementById('sortOrder').value;
+            sortData(sortBy, sortOrder);
+        }
+
+        function updateSliderValues() {
+            const priceFilter = document.getElementById('priceFilter');
+            const weightFilter = document.getElementById('weightFilter');
+            const capacityFilter = document.getElementById('capacityFilter');
+            
+            document.getElementById('priceValue').textContent = ' + priceFilter.value;
+            document.getElementById('weightValue').textContent = weightFilter.value + ' oz';
+            document.getElementById('capacityValue').textContent = capacityFilter.value + '+1';
+        }
+
+        function resetFilters() {
+            document.getElementById('categoryFilter').value = 'all';
+            document.getElementById('priceFilter').value = '2500';
+            document.getElementById('weightFilter').value = '30';
+            document.getElementById('capacityFilter').value = '10';
+            document.getElementById('sortBy').value = 'name';
+            document.getElementById('sortOrder').value = 'asc';
+            
+            updateSliderValues();
+            filteredData = [...gunData];
+            sortData('name', 'asc');
+        }
+
+        // Event listeners
+        document.getElementById('categoryFilter').addEventListener('change', filterData);
+        document.getElementById('sortBy').addEventListener('change', () => {
+            const sortBy = document.getElementById('sortBy').value;
+            const sortOrder = document.getElementById('sortOrder').value;
+            sortData(sortBy, sortOrder);
+        });
+        document.getElementById('sortOrder').addEventListener('change', () => {
+            const sortBy = document.getElementById('sortBy').value;
+            const sortOrder = document.getElementById('sortOrder').value;
+            sortData(sortBy, sortOrder);
+        });
+        
+        document.getElementById('priceFilter').addEventListener('input', () => {
+            updateSliderValues();
+            filterData();
+        });
+        document.getElementById('weightFilter').addEventListener('input', () => {
+            updateSliderValues();
+            filterData();
+        });
+        document.getElementById('capacityFilter').addEventListener('input', () => {
+            updateSliderValues();
+            filterData();
+        });
+        
+        document.getElementById('resetFilters').addEventListener('click', resetFilters);
+
+        // Initialize
+        updateSliderValues();
+        renderGuns();
+    </script>
 </body>
 </html>
