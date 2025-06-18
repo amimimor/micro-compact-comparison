@@ -1,0 +1,1313 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">
+/* <![CDATA[ */
+ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}}); 
+/* ]]> */
+</script>
+
+<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="pingback" href="https://hk-usa.com/xmlrpc.php">
+
+<title>404 - Page not found - HK USA</title>
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+            <script data-no-defer="1" data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer data-cookieconsent="ignore">
+                var ctPublicFunctions = {"_ajax_nonce":"1703a0d311","_rest_nonce":"22d49b0d87","_ajax_url":"\/wp-admin\/admin-ajax.php","_rest_url":"https:\/\/hk-usa.com\/wp-json\/","data__cookies_type":"native","data__ajax_type":"rest","data__bot_detector_enabled":"0","data__frontend_data_log_enabled":1,"text__wait_for_decoding":"Decoding the contact data, let us a few seconds to finish. Anti-Spam by CleanTalk","cookiePrefix":"","wprocket_detected":true,"host_url":"hk-usa.com"}
+            </script>
+        
+            <script data-no-defer="1" data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer data-cookieconsent="ignore">
+                var ctPublic = {"_ajax_nonce":"1703a0d311","settings__forms__check_internal":"0","settings__forms__check_external":"0","settings__forms__force_protection":"0","settings__forms__search_test":"0","settings__data__bot_detector_enabled":"0","settings__comments__form_decoration":"0","settings__sfw__anti_crawler":0,"blog_home":"https:\/\/hk-usa.com\/","pixel__setting":"0","pixel__enabled":false,"pixel__url":null,"data__email_check_before_post":"1","data__email_check_exist_post":"1","data__cookies_type":"native","data__key_is_ok":true,"data__visible_fields_required":true,"wl_brandname":"Anti-Spam by CleanTalk","wl_brandname_short":"CleanTalk","ct_checkjs_key":"f3c7391bfbed4392f8b6f949cf1ed478d7dbd41d4bfd9f7d0bf7019057c44b10","emailEncoderPassKey":"58e13d66dbd8bc8ee238e18641dbc9da","bot_detector_forms_excluded":"W10=","advancedCacheExists":true,"varnishCacheExists":false,"wc_ajax_add_to_cart":true}
+            </script>
+        <meta name="robots" content="follow, noindex">
+<meta property="fb:pages" content="">
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="HK USA &raquo; Feed" href="https://hk-usa.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="HK USA &raquo; Comments Feed" href="https://hk-usa.com/comments/feed/" />
+<link rel='stylesheet' id='sbi_styles-css' href='https://hk-usa.com/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='premium-addons-css' href='https://hk-usa.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/premium-addons.min.css?ver=4.10.20' type='text/css' media='all' />
+<link rel='stylesheet' id='premium-pro-css' href='https://hk-usa.com/wp-content/plugins/premium-addons-pro/assets/frontend/min-css/premium-addons.min.css?ver=2.9.11' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://hk-usa.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.1' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel='stylesheet' id='ion.range-slider-css' href='https://hk-usa.com/wp-content/plugins/yith-woocommerce-ajax-product-filter-premium/assets/css/ion.range-slider.css?ver=2.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='yith-wcan-shortcodes-css' href='https://hk-usa.com/wp-content/plugins/yith-woocommerce-ajax-product-filter-premium/assets/css/shortcodes.css?ver=4.30.1' type='text/css' media='all' />
+<style id='yith-wcan-shortcodes-inline-css' type='text/css'>
+:root{
+	--yith-wcan-filters_colors_titles: #434343;
+	--yith-wcan-filters_colors_background: #FFFFFF;
+	--yith-wcan-filters_colors_accent: #A7144C;
+	--yith-wcan-filters_colors_accent_r: 167;
+	--yith-wcan-filters_colors_accent_g: 20;
+	--yith-wcan-filters_colors_accent_b: 76;
+	--yith-wcan-color_swatches_border_radius: 100%;
+	--yith-wcan-color_swatches_size: 30px;
+	--yith-wcan-labels_style_background: #FFFFFF;
+	--yith-wcan-labels_style_background_hover: #A7144C;
+	--yith-wcan-labels_style_background_active: #A7144C;
+	--yith-wcan-labels_style_text: #434343;
+	--yith-wcan-labels_style_text_hover: #FFFFFF;
+	--yith-wcan-labels_style_text_active: #FFFFFF;
+	--yith-wcan-anchors_style_text: #434343;
+	--yith-wcan-anchors_style_text_hover: #A7144C;
+	--yith-wcan-anchors_style_text_active: #A7144C;
+}
+</style>
+<style id='wpseopress-local-business-style-inline-css' type='text/css'>
+span.wp-block-wpseopress-local-business-field{margin-right:8px}
+
+</style>
+<style id='wpseopress-table-of-contents-style-inline-css' type='text/css'>
+.wp-block-wpseopress-table-of-contents li.active>a{font-weight:bold}
+
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<style id='age-gate-custom-inline-css' type='text/css'>
+:root{--ag-background-color: rgba(255,255,255,0.6);--ag-background-image-position: center center;--ag-background-image-opacity: 1;--ag-form-background: rgba(255,255,255,1);--ag-text-color: #000000;--ag-blur: 5px;}
+</style>
+<link rel='stylesheet' id='age-gate-css' href='https://hk-usa.com/wp-content/plugins/age-gate/dist/main.css?ver=3.3.3' type='text/css' media='all' />
+<style id='age-gate-options-inline-css' type='text/css'>
+:root{--ag-background-color: rgba(255,255,255,0.6);--ag-background-image-position: center center;--ag-background-image-opacity: 1;--ag-form-background: rgba(255,255,255,1);--ag-text-color: #000000;--ag-blur: 5px;}
+</style>
+<link rel='stylesheet' id='agile-store-locator-init-css' href='https://hk-usa.com/wp-content/plugins/agile-store-locator/public/css/init.css?ver=4.9.13' type='text/css' media='all' />
+<link rel='stylesheet' id='ct_public_css-css' href='https://hk-usa.com/wp-content/plugins/cleantalk-spam-protect/css/cleantalk-public.min.css?ver=6.50.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ct_email_decoder_css-css' href='https://hk-usa.com/wp-content/plugins/cleantalk-spam-protect/css/cleantalk-email-decoder.min.css?ver=6.50.1' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='shoptimizer-style-css' href='https://hk-usa.com/wp-content/themes/shoptimizer/style.css?ver=2.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='shoptimizer-child-style-css' href='https://hk-usa.com/wp-content/themes/shoptimizer-child-theme/style.css?ver=1.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='shoptimizer-main-min-css' href='https://hk-usa.com/wp-content/themes/shoptimizer/assets/css/main/main.min.css?ver=2.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='shoptimizer-modal-min-css' href='https://hk-usa.com/wp-content/themes/shoptimizer/assets/css/main/modal.min.css?ver=2.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='shoptimizer-dynamic-style-css' href='https://hk-usa.com/wp-content/themes/shoptimizer/assets/css/main/dynamic.css?ver=2.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='shoptimizer-blocks-min-css' href='https://hk-usa.com/wp-content/themes/shoptimizer/assets/css/main/blocks.min.css?ver=2.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://hk-usa.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.29.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://hk-usa.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.19.3' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://hk-usa.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-14-css' href='https://hk-usa.com/wp-content/uploads/elementor/css/post-14.css?ver=1742832557' type='text/css' media='all' />
+<link rel='stylesheet' id='-sl-bootstrap-css' href='https://hk-usa.com/wp-content/plugins/agile-store-locator/public/css/sl-bootstrap.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-pro-css' href='https://hk-usa.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.19.3' type='text/css' media='all' />
+<link rel='stylesheet' id='sbistyles-css' href='https://hk-usa.com/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css' href='https://hk-usa.com/wp-content/uploads/elementor/css/global.css?ver=1742832558' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-39-css' href='https://hk-usa.com/wp-content/uploads/elementor/css/post-39.css?ver=1744233264' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-2154-css' href='https://hk-usa.com/wp-content/uploads/elementor/css/post-2154.css?ver=1743174395' type='text/css' media='all' />
+<link rel='stylesheet' id='shoptimizer-woocommerce-min-css' href='https://hk-usa.com/wp-content/themes/shoptimizer/assets/css/main/woocommerce.min.css?ver=2.6.7' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Saira+Semi+Condensed%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSaira%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://hk-usa.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://hk-usa.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' type='text/css' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script type="text/javascript" src="https://hk-usa.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://stats.wp.com/w.js?ver=202525" id="woo-tracks-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" data-pagespeed-no-defer src="https://hk-usa.com/wp-content/plugins/cleantalk-spam-protect/js/apbct-public-bundle.min.js?ver=6.50.1" id="ct_public_functions-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.8.6.0" id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/hk-usa.com","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=8.6.0" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.8.6.0" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=8.6.0" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="https://hk-usa.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hk-usa.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.1" />
+	<script type="text/javascript"> var commercekit_ajs = {"ajax_url":"\/?commercekit-ajax"}; var commercekit_pdp = []; var commercekit_as = []; </script>
+	
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 3.19.3; features: e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<meta name="theme-color" content="#F6F6F6">
+			<link rel="icon" href="https://hk-usa.com/wp-content/uploads/2025/03/favicon2.png" sizes="32x32" />
+<link rel="icon" href="https://hk-usa.com/wp-content/uploads/2025/03/favicon2.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://hk-usa.com/wp-content/uploads/2025/03/favicon2.png" />
+<meta name="msapplication-TileImage" content="https://hk-usa.com/wp-content/uploads/2025/03/favicon2.png" />
+		<style type="text/css" id="wp-custom-css">
+			.elementor-location-footer .gfield_required {
+	display: none !important;
+}
+
+.gform_required_legend {
+	display: none;
+}
+
+#page {
+	max-width: 100% !important;
+}
+
+h1.entry-title {
+     color: #000000;
+    font-family: "Saira", Sans-serif;
+	text-transform:uppercase;
+    font-size: 46px;
+    font-weight: 600;
+	
+}
+
+.page-template-default .entry-header {
+    margin-bottom: 30px;
+    margin-top: 45px;
+}
+
+
+.home-offers .gfield_label {
+	display: none !important;
+}
+
+.home-offers #input_6_1:focus {
+	background: #fff !important;
+}
+
+.product__categories{
+	display:none;
+}
+.new_product_categories{
+	display:inline;
+}
+
+
+h1.woocommerce-products-header__title.page-title {
+    display: none;
+}
+header.woocommerce-products-header:not(:has(.term-description)) {
+    margin-bottom: 25px;
+}
+
+/* Fix black line under header */
+.col-full-nav {
+	background: inherit !important;
+}
+
+/*Footer */
+.gform_title {
+	color: #0D0D0D;
+	font-family: "Saira", Sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+}
+/* End Footer */
+
+.gform_button {
+	background: #D71921 !important;
+}
+
+/* Age gate */
+.age-gate__heading img {
+	max-width: 100px !important;
+}
+/* End age gate */
+
+/* Start General Styles */
+
+.woocommerce-product-gallery__trigger {
+	display: none !important;
+}
+
+.archive-header {
+    display:none ;
+}
+
+.site-content ul li {
+    margin-bottom: 24px;
+}
+
+.forminator-ui#forminator-module-513.forminator-design--default .forminator-button-upload {
+    background-color: #efefef;
+    color: #000000;
+    border: 1px solid darkslategray;
+}
+
+.myemail::after {
+  content: "This email will be used for a $200 rebate code towards HK's webshop to be used towards your choice of magazines, HK, swag, parts, and /or apparel.";
+	font-weight:500;
+	font-size:15px;
+	color:#000;
+	margin-top:10px !important;
+	} 
+
+
+.upload::after {
+  content: "                Accepting file types: jpg, pdf, png, Max file size 10MB  Please Upload a scan of your receipt";
+	font-weight:500;
+	font-size:15px;
+	color:#000;;
+	margin-top:10px !important;
+	} 
+
+
+.handgun::after {
+  content: "  Purchase any NEW P2000, P2000SK, Full-sized and Larger VP Models";
+	font-weight:500;
+	font-size:15px;
+	color:#000;
+	} 
+
+.elementor-widget-woocommerce-product-meta .detail-label {
+    font-weight: 700;
+    display: none;
+}
+
+.product_meta .sku_wrapper span {
+    margin-left: 5px;
+    display: none;
+    color: #999;
+}
+
+.elementor-207 .elementor-element.elementor-element-a2d6a14 .elementor-accordion-item {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-width: 1px;
+    border-color: #090404;
+}
+
+/*
+.elementor-accordion .elementor-tab-title .elementor-accordion-icon {
+    display: inline-block;
+    width: 23px !important;
+    height: 43px !important;
+}
+*/
+
+.site-header {
+	display: none;
+}
+
+.archive .col-full {
+	padding-bottom: 50px !important;
+}
+
+span.forminator-description {
+	font-size:14px !important;
+	font-family:Saira !important;
+	font-weight:600 !important;
+	color:#000 !important;
+	text-transform:uppercase;
+}
+
+.forminator-select.forminator-select-dropdown-container--open .forminator-select-dropdown.forminator-dropdown--default .select2-search input {
+    padding: 9px;
+    display: none;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+}
+
+
+.elementor hr {
+    margin-top: 10px;
+	margin-bottom:20px;
+    background-color: #cccccc;
+}
+
+.forminator-date-select {
+    width: 555px;
+}
+
+.forminator-field.forminator-merge-tags .forminator-label{
+	
+	font-size:33px !important;
+	font-family:Saira SemiCondensed !important
+		color:#000000 !important;
+}
+
+/* End General Styles */
+
+/* Start Header */
+
+.header-search {
+	margin-bottom: 0px !important;
+}
+
+/* End Header */
+
+/* Start Product Spec Tables */
+
+.spec-table table {
+	border: 0.5px solid #444;
+	border-collapse: collapse;
+}
+
+.elementor-tab-content {
+	overflow-x: auto;
+}
+
+.spec-container {
+	/*overflow-x: auto;*/
+	cursor: grab;
+	height: auto !important;
+}
+
+.spec-table table thead tr th {
+	background-color: #D71921;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 8px 12px 7px 12px;
+}
+
+.spec-table table td {
+	padding: 8px 12px 7px 12px;
+}
+
+.spec-table table tr:nth-child(odd) {
+	background: #fff !important;
+}
+
+.spec-table table tr:nth-child(even) {
+	background: #C7BFBF !important;
+}
+/* End Product Spec Tables */
+
+/* Shop page */
+
+.widget .widget-title, .filter-title {
+    font-family: Saira;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.archive .shoptimizer-archive {
+	padding-top: 25px;
+	background: #fff;
+	padding-bottom: 25px;
+}
+
+/*** Hide LE / MIL categories on Civilian shop ***/
+.term-58 .cat-item-59, .term-23 .cat-item-59, .term-112 .cat-item-59, .term-68 .cat-item-59  {
+	display: none;
+}
+.term-62 .cat-item-59, .term-23 .cat-item-59, .term-112 .cat-item-59, .term-68 .cat-item-59  {
+	display: none;
+}
+
+/*** Hide Civilian categories on LE / MIL shop ***/
+.term-63 .cat-item-58, .term-59 .cat-item-58, .term-67 .cat-item-58, .term-66 .cat-item-58, .term-65 .cat-item-58, .term-64 .cat-item-58 {
+	display: none;
+}
+
+.term-63 .cat-item-58, .term-59 .cat-item-58, .term-67 .cat-item-58, .term-66 .cat-item-58, .term-65 .cat-item-58, .term-64 .cat-item-58 {
+	display: none;
+}
+
+/* End shop page */
+
+/* Start Newsroom */
+.post-sidebar ul.wp-block-categories-list.wp-block-categories li {
+	font-weight:500;
+	font-style:italic;
+	background-color:#D71921;
+	padding:10px 10px 10px 10px;
+	margin-top:5px !important;
+	margin-bottom:10px;
+
+}
+
+.post-sidebar ul.wp-block-categories-list.wp-block-categories li a {
+	color: #fff;
+	display: block !important;
+	width: 100% !important;
+}
+/* End Newsroom */		</style>
+		<style id="kirki-inline-styles">.site-header .custom-logo-link img{height:38px;}.is_stuck .logo-mark{width:60px;}.is_stuck .primary-navigation.with-logo .menu-primary-menu-container{margin-left:60px;}.price ins, .summary .yith-wcwl-add-to-wishlist a:before, .site .commercekit-wishlist a i:before, .commercekit-wishlist-table .price, .commercekit-wishlist-table .price ins, .commercekit-ajs-product-price, .commercekit-ajs-product-price ins, .widget-area .widget.widget_categories a:hover, #secondary .widget ul li a:hover, #secondary.widget-area .widget li.chosen a, .widget-area .widget a:hover, #secondary .widget_recent_comments ul li a:hover, .woocommerce-pagination .page-numbers li .page-numbers.current, div.product p.price, body:not(.mobile-toggled) .main-navigation ul.menu li.full-width.menu-item-has-children ul li.highlight > a, body:not(.mobile-toggled) .main-navigation ul.menu li.full-width.menu-item-has-children ul li.highlight > a:hover, #secondary .widget ins span.amount, #secondary .widget ins span.amount span, .search-results article h2 a:hover{color:#d71921;}.spinner > div, .widget_price_filter .ui-slider .ui-slider-range, .widget_price_filter .ui-slider .ui-slider-handle, #page .woocommerce-tabs ul.tabs li span, #secondary.widget-area .widget .tagcloud a:hover, .widget-area .widget.widget_product_tag_cloud a:hover, footer .mc4wp-form input[type="submit"], #payment .payment_methods li.woocommerce-PaymentMethod > input[type=radio]:first-child:checked + label:before, #payment .payment_methods li.wc_payment_method > input[type=radio]:first-child:checked + label:before, #shipping_method > li > input[type=radio]:first-child:checked + label:before, ul#shipping_method li:only-child label:before, .image-border .elementor-image:after, ul.products li.product .yith-wcwl-wishlistexistsbrowse a:before, ul.products li.product .yith-wcwl-wishlistaddedbrowse a:before, ul.products li.product .yith-wcwl-add-button a:before, .summary .yith-wcwl-add-to-wishlist a:before, li.product .commercekit-wishlist a em.cg-wishlist-t:before, li.product .commercekit-wishlist a em.cg-wishlist:before, .site .commercekit-wishlist a i:before, .summary .commercekit-wishlist a i.cg-wishlist-t:before, #page .woocommerce-tabs ul.tabs li a span, .commercekit-atc-tab-links li a span, .main-navigation ul li a span strong, .widget_layered_nav ul.woocommerce-widget-layered-nav-list li.chosen:before{background-color:#d71921;}.woocommerce-tabs .tabs li a::after, .commercekit-atc-tab-links li a:after{border-color:#d71921;}a{color:#d71921;}a:hover{color:#b62129;}body{background-color:#fff;}.col-full.topbar-wrapper{background-color:#fff;border-bottom-color:#eee;}.top-bar, .top-bar a{color:#323232;}body:not(.header-4) .site-header, .header-4-container{background-color:#fff;}.fa.menu-item, .ri.menu-item{border-left-color:#eee;}.header-4 .search-trigger span{border-right-color:#eee;}.header-widget-region{background-color:#dc9814;}.header-widget-region, .header-widget-region a{color:#fff;}.button, .button:hover, .commercekit-wishlist-table button, input[type=submit], ul.products li.product .button, ul.products li.product .added_to_cart, ul.wc-block-grid__products .wp-block-button__link, ul.wc-block-grid__products .wp-block-button__link:hover, .site .widget_shopping_cart a.button.checkout, .woocommerce #respond input#submit.alt, .main-navigation ul.menu ul li a.button, .main-navigation ul.menu ul li a.button:hover, body .main-navigation ul.menu li.menu-item-has-children.full-width > .sub-menu-wrapper li a.button:hover, .main-navigation ul.menu li.menu-item-has-children.full-width > .sub-menu-wrapper li:hover a.added_to_cart, .site div.wpforms-container-full .wpforms-form button[type=submit], .product .cart .single_add_to_cart_button, .woocommerce-cart p.return-to-shop a, .elementor-row .feature p a, .image-feature figcaption span{color:#fff;}.single-product div.product form.cart .button.added::before, #payment .place-order .button:before, .cart-collaterals .checkout-button:before, .widget_shopping_cart .buttons .checkout:before{background-color:#fff;}.button, input[type=submit], ul.products li.product .button, .commercekit-wishlist-table button, .woocommerce #respond input#submit.alt, .product .cart .single_add_to_cart_button, .widget_shopping_cart a.button.checkout, .main-navigation ul.menu li.menu-item-has-children.full-width > .sub-menu-wrapper li a.added_to_cart, .site div.wpforms-container-full .wpforms-form button[type=submit], ul.products li.product .added_to_cart, ul.wc-block-grid__products .wp-block-button__link, .woocommerce-cart p.return-to-shop a, .elementor-row .feature a, .image-feature figcaption span{background-color:#d71921;}.widget_shopping_cart a.button.checkout{border-color:#d71921;}.button:hover, [type="submit"]:hover, .commercekit-wishlist-table button:hover, ul.products li.product .button:hover, #place_order[type="submit"]:hover, body .woocommerce #respond input#submit.alt:hover, .product .cart .single_add_to_cart_button:hover, .main-navigation ul.menu li.menu-item-has-children.full-width > .sub-menu-wrapper li a.added_to_cart:hover, .site div.wpforms-container-full .wpforms-form button[type=submit]:hover, .site div.wpforms-container-full .wpforms-form button[type=submit]:focus, ul.products li.product .added_to_cart:hover, ul.wc-block-grid__products .wp-block-button__link:hover, .widget_shopping_cart a.button.checkout:hover, .woocommerce-cart p.return-to-shop a:hover{background-color:#b62129;}.widget_shopping_cart a.button.checkout:hover{border-color:#b62129;}.onsale, .product-label, .wc-block-grid__product-onsale{background-color:#d71921;color:#fff;}.content-area .summary .onsale{color:#d71921;}.summary .product-label:before, .product-details-wrapper .product-label:before{border-right-color:#d71921;}.entry-content .testimonial-entry-title:after, .cart-summary .widget li strong::before, p.stars.selected a.active::before, p.stars:hover a::before, p.stars.selected a:not(.active)::before{color:#ee9e13;}.star-rating > span:before{background-color:#ee9e13;}header.woocommerce-products-header, .shoptimizer-category-banner{background-color:#efeee3;}.term-description p, .term-description a, .term-description a:hover, .shoptimizer-category-banner h1, .shoptimizer-category-banner .taxonomy-description p{color:#222;}.single-product .site-content .col-full{background-color:#f8f8f8;}.call-back-feature a{background-color:#d71921;color:#fff;}ul.checkout-bar:before, .woocommerce-checkout .checkout-bar li.active:after, ul.checkout-bar li.visited:after{background-color:#d71921;}.below-content .widget .ri{color:#999;}.below-content .widget svg{stroke:#999;}footer.site-footer, footer.copyright{background-color:#111;color:#ccc;}.site footer.site-footer .widget .widget-title, .site-footer .widget.widget_block h2{color:#fff;}footer.site-footer a:not(.button), footer.copyright a{color:#999;}footer.site-footer a:not(.button):hover, footer.copyright a:hover{color:#fff;}footer.site-footer li a:after{border-color:#fff;}.top-bar{font-size:14px;}.menu-primary-menu-container > ul > li > a span:before{border-color:#dc9814;}.secondary-navigation .menu a, .ri.menu-item:before, .fa.menu-item:before{color:#404040;}.secondary-navigation .icon-wrapper svg{stroke:#404040;}.site-header-cart a.cart-contents .count, .site-header-cart a.cart-contents .count:after{border-color:#dc9814;}.site-header-cart a.cart-contents .count, .shoptimizer-cart-icon i{color:#dc9814;}.site-header-cart a.cart-contents:hover .count, .site-header-cart a.cart-contents:hover .count{background-color:#dc9814;}.site-header-cart .cart-contents{color:#fff;}.header-widget-region .widget{padding-top:12px;padding-bottom:12px;}.site .header-widget-region p, .site .header-widget-region li{font-size:14px;}#page{max-width:2170px;}.col-full, .single-product .site-content .shoptimizer-sticky-add-to-cart .col-full, body .woocommerce-message, .single-product .site-content .commercekit-sticky-add-to-cart .col-full{max-width:1440px;}.product-details-wrapper, .single-product .woocommerce-Tabs-panel, .single-product .archive-header .woocommerce-breadcrumb, .plp-below.archive.woocommerce .archive-header .woocommerce-breadcrumb, .related.products, .site-content #sspotReviews:not([data-shortcode="1"]), .upsells.products, .composite_summary, .composite_wrap, .yith-wfbt-section.woocommerce{max-width:calc(1440px + 5.2325em);}.main-navigation ul li.menu-item-has-children.full-width .container, .single-product .woocommerce-error{max-width:1440px;}.below-content .col-full, footer .col-full{max-width:calc(1440px + 40px);}#secondary{width:17%;}.content-area{width:76%;}body, button, input, select, option, textarea, h6{font-family:Saira;color:#000000;}.menu-primary-menu-container > ul > li > a, .site-header-cart .cart-contents{font-family:Saira;}.main-navigation ul.menu ul li > a, .main-navigation ul.nav-menu ul li > a, .main-navigation ul.menu ul li.nolink{font-family:Saira;}.main-navigation ul.menu li.menu-item-has-children.full-width > .sub-menu-wrapper li.menu-item-has-children > a, .main-navigation ul.menu li.menu-item-has-children.full-width > .sub-menu-wrapper li.heading > a, .main-navigation ul.menu li.menu-item-has-children.full-width > .sub-menu-wrapper li.nolink > span{font-family:Saira;}.entry-content{font-family:Saira;color:#000000;}h1{font-family:Saira;letter-spacing:0px;color:#000000;}h2{font-family:Saira;letter-spacing:0px;color:#000000;}h3{font-family:Saira;letter-spacing:0px;color:#000000;}h4{font-family:Saira;color:#000000;}h5{font-family:Saira;color:#000000;}blockquote p{font-family:Saira;color:#000000;}.widget .widget-title, .widget .widgettitle, .widget.widget_block h2{font-family:Saira;}body.single-post h1{font-family:Saira;letter-spacing:0px;}.term-description, .shoptimizer-category-banner .taxonomy-description{font-family:Saira;letter-spacing:0px;}.content-area ul.products li.product .woocommerce-loop-product__title, .content-area ul.products li.product h2, ul.products li.product .woocommerce-loop-product__title, ul.products li.product .woocommerce-loop-product__title, .main-navigation ul.menu ul li.product .woocommerce-loop-product__title a, .wc-block-grid__product .wc-block-grid__product-title{font-family:Saira;}.summary h1{font-family:Saira;letter-spacing:0px;}body .woocommerce #respond input#submit.alt, body .woocommerce a.button.alt, body .woocommerce button.button.alt, body .woocommerce input.button.alt, .product .cart .single_add_to_cart_button, .shoptimizer-sticky-add-to-cart__content-button a.button, .widget_shopping_cart a.button.checkout, #cgkit-tab-commercekit-sticky-atc-title button, #cgkit-mobile-commercekit-sticky-atc button{font-family:Saira;}@media (max-width: 992px){.main-header, .site-branding{height:70px;}.main-header .site-header-cart{top:calc(-14px + 70px / 2);}.sticky-m .mobile-filter, .sticky-m #cgkitpf-horizontal{top:70px;}.sticky-m .commercekit-atc-sticky-tabs{top:calc(70px - 1px);}.m-search-bh.sticky-m .commercekit-atc-sticky-tabs, .m-search-toggled.sticky-m .commercekit-atc-sticky-tabs{top:calc(70px + 60px - 1px);}.m-search-bh.sticky-m .mobile-filter, .m-search-toggled.sticky-m .mobile-filter, .m-search-bh.sticky-m #cgkitpf-horizontal, .m-search-toggled.sticky-m #cgkitpf-horizontal{top:calc(70px + 60px);}.sticky-m .cg-layout-vertical-scroll .cg-thumb-swiper{top:calc(70px + 10px);}body.theme-shoptimizer .site-header .custom-logo-link img, body.wp-custom-logo .site-header .custom-logo-link img{height:22px;}.m-search-bh .site-search, .m-search-toggled .site-search, .site-branding button.menu-toggle, .site-branding button.menu-toggle:hover{background-color:#fff;}.menu-toggle .bar, .site-header-cart a.cart-contents:hover .count{background-color:#111;}.menu-toggle .bar-text, .menu-toggle:hover .bar-text, .site-header-cart a.cart-contents .count{color:#111;}.mobile-search-toggle svg, .mobile-myaccount svg{stroke:#111;}.site-header-cart a.cart-contents:hover .count{background-color:#dc9814;}.site-header-cart a.cart-contents:not(:hover) .count{color:#dc9814;}.shoptimizer-cart-icon svg{stroke:#dc9814;}.site-header .site-header-cart a.cart-contents .count, .site-header-cart a.cart-contents .count:after{border-color:#dc9814;}.col-full-nav{background-color:#fff;}.main-navigation ul li a, body .main-navigation ul.menu > li.menu-item-has-children > span.caret::after, .main-navigation .woocommerce-loop-product__title, .main-navigation ul.menu li.product, body .main-navigation ul.menu li.menu-item-has-children.full-width>.sub-menu-wrapper li h6 a, body .main-navigation ul.menu li.menu-item-has-children.full-width>.sub-menu-wrapper li h6 a:hover, .main-navigation ul.products li.product .price, body .main-navigation ul.menu li.menu-item-has-children li.menu-item-has-children span.caret, body.mobile-toggled .main-navigation ul.menu li.menu-item-has-children.full-width > .sub-menu-wrapper li p.product__categories a, body.mobile-toggled ul.products li.product p.product__categories a, body li.menu-item-product p.product__categories, main-navigation ul.menu li.menu-item-has-children.full-width > .sub-menu-wrapper li.menu-item-has-children > a, .main-navigation ul.menu li.menu-item-has-children.full-width > .sub-menu-wrapper li.heading > a, .mobile-extra, .mobile-extra h4, .mobile-extra a:not(.button){color:#222;}.main-navigation ul.menu li.menu-item-has-children span.caret::after{background-color:#222;}.main-navigation ul.menu > li.menu-item-has-children.dropdown-open > .sub-menu-wrapper{border-bottom-color:#eee;}}@media (min-width: 993px){.col-full-nav{background-color:#222;}.col-full.main-header{padding-top:30px;padding-bottom:30px;}.menu-primary-menu-container > ul > li > a, .site-header-cart, .logo-mark{line-height:60px;}.site-header-cart, .menu-primary-menu-container > ul > li.menu-button{height:60px;}.menu-primary-menu-container > ul > li > a{color:#fff;}.main-navigation ul.menu > li.menu-item-has-children > a::after{background-color:#fff;}.menu-primary-menu-container > ul.menu:hover > li > a{opacity:0.65;}.main-navigation ul.menu ul.sub-menu{background-color:#fff;}.main-navigation ul.menu ul li a, .main-navigation ul.nav-menu ul li a{color:#323232;}.main-navigation ul.menu ul a:hover{color:#dc9814;}.shoptimizer-cart-icon svg{stroke:#dc9814;}.site-header-cart a.cart-contents:hover .count{color:#fff;}body.header-4:not(.full-width-header) .header-4-inner, .summary form.cart.commercekit_sticky-atc .commercekit-pdp-sticky-inner, .commercekit-atc-sticky-tabs ul.commercekit-atc-tab-links, .h-ckit-filters.no-woocommerce-sidebar .commercekit-product-filters{max-width:1440px;}}@media (min-width: 992px){.top-bar .textwidget{padding-top:10px;padding-bottom:10px;}}/* vietnamese */
+@font-face {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://hk-usa.com/wp-content/fonts/saira/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rCksAxkCQjQVcex5ER.woff) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://hk-usa.com/wp-content/fonts/saira/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rCksExkCQjQVcex5ER.woff) format('woff');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://hk-usa.com/wp-content/fonts/saira/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rCks8xkCQjQVcexw.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* vietnamese */
+@font-face {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://hk-usa.com/wp-content/fonts/saira/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rCksAxkCQjQVcex5ER.woff) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://hk-usa.com/wp-content/fonts/saira/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rCksExkCQjQVcex5ER.woff) format('woff');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://hk-usa.com/wp-content/fonts/saira/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rCks8xkCQjQVcexw.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* vietnamese */
+@font-face {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://hk-usa.com/wp-content/fonts/saira/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rCksAxkCQjQVcex5ER.woff) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://hk-usa.com/wp-content/fonts/saira/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rCksExkCQjQVcex5ER.woff) format('woff');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://hk-usa.com/wp-content/fonts/saira/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rCks8xkCQjQVcexw.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style>
+</head>
+
+<body class="error404 wp-custom-logo wp-theme-shoptimizer wp-child-theme-shoptimizer-child-theme theme-shoptimizer woocommerce-no-js yith-wcan-pro no-breadcrumbs sticky-m sticky-d pdp-full right-archives-sidebar right-page-sidebar wc-active product-align-left elementor-default elementor-kit-14">
+
+
+<div class="mobile-menu close-drawer">
+				<span aria-hidden="true">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
+				</span>
+		</div>
+<div id="page" class="hfeed site">
+
+			<a class="skip-link screen-reader-text" href="#site-navigation">Skip to navigation</a>
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+				<div class="shoptimizer-mini-cart-wrap">
+			<div id="ajax-loading">
+				<div class="shoptimizer-loader">
+					<div class="spinner">
+					<div class="bounce1"></div>
+					<div class="bounce2"></div>
+					<div class="bounce3"></div>
+					</div>
+				</div>
+			</div>
+			<div class="cart-drawer-heading">Your Cart</div>
+			<div class="close-drawer">
+				<span aria-hidden="true">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
+				</span>
+			</div>
+
+				<div class="widget woocommerce widget_shopping_cart"><div class="widget_shopping_cart_content"></div></div>
+			</div>
+
+
+			
+			<div data-elementor-type="header" data-elementor-id="39" class="elementor elementor-39 elementor-location-header" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-215ca4d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="215ca4d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-19b32c8" data-id="19b32c8" data-element_type="column">
+			<div class="elementor-widget-wrap">
+							</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c7afdaa" data-id="c7afdaa" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-e44c84a elementor-widget elementor-widget-heading" data-id="e44c84a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.19.0 - 26-02-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h6 class="elementor-heading-title elementor-size-default"><a href="/lem/">MIL/LEO</a></h6>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-b66e78d" data-id="b66e78d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-ed36073 elementor-widget-tablet__width-auto elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="ed36073" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.19.0 - 26-02-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p><a href="https://us.hkwebshop.com/" target="_blank" rel="noopener">HK Webstore</a></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-25a0293 elementor-widget-tablet__width-auto elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="25a0293" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="color: #ffffff;"><a style="color: #ffffff;" href="/dealer-locator">Find a Dealer</a></span></p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-c0a076b elementor-widget-tablet__width-auto elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="c0a076b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><span style="color: #ffffff;"><a style="color: #ffffff;" href="https://us.hkwebshop.com/hkb2bstorefront/hkb2b/en/login" target="_blank" rel="noopener">Rep Portal</a></span></p>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7169490 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7169490" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f66e276" data-id="f66e276" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-e378e6b elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="e378e6b" data-element_type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.19.0 - 26-02-2024 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>						<a href="https://hk-usa.com">
+			<img fetchpriority="high" width="1269" height="940" src="https://hk-usa.com/wp-content/uploads/2023/08/HK-USA-Logo-Final-noR-wht-text.png" class="attachment-full size-full wp-image-4093" alt="" srcset="https://hk-usa.com/wp-content/uploads/2023/08/HK-USA-Logo-Final-noR-wht-text.png 1269w, https://hk-usa.com/wp-content/uploads/2023/08/HK-USA-Logo-Final-noR-wht-text-300x222.png 300w, https://hk-usa.com/wp-content/uploads/2023/08/HK-USA-Logo-Final-noR-wht-text-1024x759.png 1024w, https://hk-usa.com/wp-content/uploads/2023/08/HK-USA-Logo-Final-noR-wht-text-768x569.png 768w, https://hk-usa.com/wp-content/uploads/2023/08/HK-USA-Logo-Final-noR-wht-text-990x733.png 990w, https://hk-usa.com/wp-content/uploads/2023/08/HK-USA-Logo-Final-noR-wht-text-441x327.png 441w, https://hk-usa.com/wp-content/uploads/2023/08/HK-USA-Logo-Final-noR-wht-text-365x270.png 365w, https://hk-usa.com/wp-content/uploads/2023/08/HK-USA-Logo-Final-noR-wht-text-670x496.png 670w, https://hk-usa.com/wp-content/uploads/2023/08/HK-USA-Logo-Final-noR-wht-text-150x111.png 150w" sizes="(max-width: 360px) 147px, (max-width: 1269px) 100vw, 1269px" />				</a>
+									</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a71d4cf" data-id="a71d4cf" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5417107 elementor-nav-menu__align-center elementor-nav-menu--stretch elementor-nav-menu__text-align-center elementor-nav-menu--dropdown-tablet elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="5417107" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://hk-usa.com/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css">			<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-5417107" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42"><a href="/product-category/commercial/pistols/" class="elementor-item">Pistols</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"><a href="/product-category/commercial/rifles/" class="elementor-item">Rifles</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44"><a target="_blank" href="https://us.hkwebshop.com/hkstorefront/hk/en/Knives/c/700" class="elementor-item">Knives</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2734"><a href="#" class="elementor-item elementor-item-anchor">Company</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2735"><a href="/company/" class="elementor-sub-item">About Us</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45"><a target="_blank" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=adf53548-e5ca-4fce-b821-f7b448b7dedf&#038;ccId=19000101_000001&#038;lang=en_US" class="elementor-sub-item">Careers</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46"><a href="https://hk-usa.com/training/" class="elementor-item">Training</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2736"><a href="#" class="elementor-item elementor-item-anchor">Support</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2737"><a href="/contact/" class="elementor-sub-item">Contact Us</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2738"><a href="/warranty/" class="elementor-sub-item">Warranty</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5139"><a href="https://hk-usa.com/manuals/" class="elementor-sub-item">Manuals<div class="icon-wrapper"> </div></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5960"><a href="https://hk-usa.com/wp-content/uploads/2023/09/RMA-Authorization-Form.pdf" class="elementor-sub-item">Repair Auth Form</a></li>
+</ul>
+</li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-5417107" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42"><a href="/product-category/commercial/pistols/" class="elementor-item" tabindex="-1">Pistols</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"><a href="/product-category/commercial/rifles/" class="elementor-item" tabindex="-1">Rifles</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44"><a target="_blank" href="https://us.hkwebshop.com/hkstorefront/hk/en/Knives/c/700" class="elementor-item" tabindex="-1">Knives</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2734"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Company</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2735"><a href="/company/" class="elementor-sub-item" tabindex="-1">About Us</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45"><a target="_blank" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=adf53548-e5ca-4fce-b821-f7b448b7dedf&#038;ccId=19000101_000001&#038;lang=en_US" class="elementor-sub-item" tabindex="-1">Careers</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46"><a href="https://hk-usa.com/training/" class="elementor-item" tabindex="-1">Training</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2736"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Support</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2737"><a href="/contact/" class="elementor-sub-item" tabindex="-1">Contact Us</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2738"><a href="/warranty/" class="elementor-sub-item" tabindex="-1">Warranty</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5139"><a href="https://hk-usa.com/manuals/" class="elementor-sub-item" tabindex="-1">Manuals<div class="icon-wrapper"> </div></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5960"><a href="https://hk-usa.com/wp-content/uploads/2023/09/RMA-Authorization-Form.pdf" class="elementor-sub-item" tabindex="-1">Repair Auth Form</a></li>
+</ul>
+</li>
+</ul>			</nav>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-aba464e" data-id="aba464e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6b92548 elementor-search-form--skin-minimal elementor-widget__width-inherit elementor-widget-tablet__width-initial header-search elementor-hidden-mobile elementor-widget elementor-widget-search-form" data-id="6b92548" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;minimal&quot;}" data-widget_type="search-form.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://hk-usa.com/wp-content/plugins/elementor-pro/assets/css/widget-theme-elements.min.css">		<search role="search">
+			<form class="elementor-search-form" action="https://hk-usa.com" method="get">
+												<div class="elementor-search-form__container">
+					<label class="elementor-screen-only" for="elementor-search-form-6b92548">Search</label>
+
+											<div class="elementor-search-form__icon">
+							<i aria-hidden="true" class="fas fa-search"></i>							<span class="elementor-screen-only">Search</span>
+						</div>
+					
+					<input id="elementor-search-form-6b92548" placeholder="Search HK USA" class="elementor-search-form__input" type="search" name="s" value="">
+					
+					
+									</div>
+			</form>
+		</search>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a96f254 elementor-search-form--skin-full_screen elementor-widget__width-inherit elementor-widget-tablet__width-initial elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-search-form" data-id="a96f254" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;full_screen&quot;}" data-widget_type="search-form.default">
+				<div class="elementor-widget-container">
+					<search role="search">
+			<form class="elementor-search-form" action="https://hk-usa.com" method="get">
+												<div class="elementor-search-form__toggle" tabindex="0" role="button">
+					<i aria-hidden="true" class="fas fa-search"></i>					<span class="elementor-screen-only">Search</span>
+				</div>
+								<div class="elementor-search-form__container">
+					<label class="elementor-screen-only" for="elementor-search-form-a96f254">Search</label>
+
+					
+					<input id="elementor-search-form-a96f254" placeholder="Search HK USA" class="elementor-search-form__input" type="search" name="s" value="">
+					
+					
+										<div class="dialog-lightbox-close-button dialog-close-button" role="button" tabindex="0">
+						<i aria-hidden="true" class="eicon-close"></i>						<span class="elementor-screen-only">Close this search box.</span>
+					</div>
+									</div>
+			</form>
+		</search>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ba1f5e0 elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ba1f5e0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7d8877f" data-id="7d8877f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-57d1b97 elementor-widget elementor-widget-text-editor" data-id="57d1b97" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<h1> </h1>						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		
+	<header id="masthead" class="site-header">
+
+		<div class="menu-overlay"></div>
+
+		<div class="main-header col-full">
+
+			
+	<style>
+		.site-content::after { display: none; }
+		.col-full.topbar-wrapper { border: none; }
+		@media (min-width: 992px) {
+			.col-full.main-header, .col-full-nav { padding-top: 0px; padding-bottom: 0px; }
+		}
+		@media (max-width: 992px) {
+			.main-header, .site-branding { height: 0px; }
+		}
+	</style>
+		</div>
+
+
+	</header><!-- #masthead -->
+
+	
+	<div class="col-full-nav">
+
+				
+									
+												<div class="site-search">
+						
+							<div class="widget woocommerce widget_product_search"><form role="search" method="get" class="woocommerce-product-search" action="https://hk-usa.com/">
+	<label class="screen-reader-text" for="woocommerce-product-search-field-0">Search for:</label>
+	<input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Search products&hellip;" value="" name="s" />
+	<button type="submit" value="Search" class="">Search</button>
+	<input type="hidden" name="post_type" value="product" />
+</form>
+</div>						</div>
+									
+	</div>
+
+			<div class="mobile-overlay"></div>
+			
+				
+	<div id="content" class="site-content" tabindex="-1">
+
+		<div class="shoptimizer-archive">
+
+		<div class="archive-header">
+			<div class="col-full">
+				<div class="woocommerce"></div>			</div>
+		</div>
+
+		<div class="col-full">
+
+
+<div class="site-main">
+
+	<header class="page-header">
+		<h1 class="page-title">That page can&rsquo;t be found.</h1>
+	</header><!-- .page-header -->
+
+	<p>Nothing was found at this location. Try searching, or check out the popular items below.</p>
+
+	<section class="site-main" aria-label="Popular Products"><h2>Popular Products</h2><div class="woocommerce columns-4 "><ul class="products columns-4">
+<li class="product type-product post-2174 status-publish first instock product_cat-le-mil product_cat-semi-automatic-pistols product_tag-hk45 product_tag-hk45-leo has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="woocommerce-image__wrapper"><a href="https://hk-usa.com/product/hk45-leo/" aria-label="HK45" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="365" height="244" src="https://hk-usa.com/wp-content/uploads/2023/09/hk45_left-365x244.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" srcset="https://hk-usa.com/wp-content/uploads/2023/09/hk45_left-365x244.png 365w, https://hk-usa.com/wp-content/uploads/2023/09/hk45_left-150x100.png 150w, https://hk-usa.com/wp-content/uploads/2023/09/hk45_left-670x447.png 670w, https://hk-usa.com/wp-content/uploads/2023/09/hk45_left-300x200.png 300w, https://hk-usa.com/wp-content/uploads/2023/09/hk45_left-1024x683.png 1024w, https://hk-usa.com/wp-content/uploads/2023/09/hk45_left-768x512.png 768w, https://hk-usa.com/wp-content/uploads/2023/09/hk45_left-1536x1025.png 1536w, https://hk-usa.com/wp-content/uploads/2023/09/hk45_left-990x661.png 990w, https://hk-usa.com/wp-content/uploads/2023/09/hk45_left-441x294.png 441w, https://hk-usa.com/wp-content/uploads/2023/09/hk45_left.png 1920w" sizes="(max-width: 360px) 147px, (max-width: 365px) 100vw, 365px" />			
+	</a></div><div class="woocommerce-card__header"><p class="product__categories new_product_categories"><a href="https://hk-usa.com/product-category/le-mil/">LE / MIL, </a><a href="https://hk-usa.com/product-category/le-mil/semi-automatic-pistols/">Semi-Automatic-Pistols</a></p>					<p class="product__categories"><a href="https://hk-usa.com/product-category/le-mil/" rel="tag">LE / MIL</a>, <a href="https://hk-usa.com/product-category/le-mil/semi-automatic-pistols/" rel="tag">Semi-Automatic-Pistols</a></p>				<div class="woocommerce-loop-product__title"><a href="https://hk-usa.com/product/hk45-leo/" aria-label="HK45" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">HK45</a></div>
+<a href="https://hk-usa.com/product/hk45-leo/" data-quantity="1" class="button product_type_simple" data-product_id="2174" data-product_sku="" aria-label="Read more about &ldquo;HK45&rdquo;" aria-describedby="" rel="nofollow">Read more</a></div></li>
+<li class="product type-product post-2136 status-publish instock product_cat-le-mil product_cat-machine-guns product_tag-mg4 has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="woocommerce-image__wrapper"><a href="https://hk-usa.com/product/mg4/" aria-label="MG4" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" width="365" height="160" src="https://hk-usa.com/wp-content/uploads/2023/09/HK-MG4E-1-365x160.jpeg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" srcset="https://hk-usa.com/wp-content/uploads/2023/09/HK-MG4E-1-365x160.jpeg 365w, https://hk-usa.com/wp-content/uploads/2023/09/HK-MG4E-1-150x66.jpeg 150w, https://hk-usa.com/wp-content/uploads/2023/09/HK-MG4E-1-670x294.jpeg 670w, https://hk-usa.com/wp-content/uploads/2023/09/HK-MG4E-1-300x132.jpeg 300w, https://hk-usa.com/wp-content/uploads/2023/09/HK-MG4E-1-1024x450.jpeg 1024w, https://hk-usa.com/wp-content/uploads/2023/09/HK-MG4E-1-768x337.jpeg 768w, https://hk-usa.com/wp-content/uploads/2023/09/HK-MG4E-1-990x435.jpeg 990w, https://hk-usa.com/wp-content/uploads/2023/09/HK-MG4E-1-441x194.jpeg 441w, https://hk-usa.com/wp-content/uploads/2023/09/HK-MG4E-1.jpeg 1191w" sizes="(max-width: 360px) 147px, (max-width: 365px) 100vw, 365px" />			
+	</a></div><div class="woocommerce-card__header"><p class="product__categories new_product_categories"><a href="https://hk-usa.com/product-category/le-mil/">LE / MIL, </a><a href="https://hk-usa.com/product-category/le-mil/machine-guns/">Machine Guns</a></p>					<p class="product__categories"><a href="https://hk-usa.com/product-category/le-mil/" rel="tag">LE / MIL</a>, <a href="https://hk-usa.com/product-category/le-mil/machine-guns/" rel="tag">Machine Guns</a></p>				<div class="woocommerce-loop-product__title"><a href="https://hk-usa.com/product/mg4/" aria-label="MG4" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">MG4</a></div>
+<a href="https://hk-usa.com/product/mg4/" data-quantity="1" class="button product_type_simple" data-product_id="2136" data-product_sku="" aria-label="Read more about &ldquo;MG4&rdquo;" aria-describedby="" rel="nofollow">Read more</a></div></li>
+<li class="product type-product post-2135 status-publish instock product_cat-grenade-launchers product_cat-le-mil product_tag-glm has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="woocommerce-image__wrapper"><a href="https://hk-usa.com/product/glm/" aria-label="GLM" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" width="365" height="232" src="https://hk-usa.com/wp-content/uploads/2023/09/XM320-alone-365x232.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" srcset="https://hk-usa.com/wp-content/uploads/2023/09/XM320-alone-365x232.jpg 365w, https://hk-usa.com/wp-content/uploads/2023/09/XM320-alone-150x95.jpg 150w, https://hk-usa.com/wp-content/uploads/2023/09/XM320-alone-670x426.jpg 670w, https://hk-usa.com/wp-content/uploads/2023/09/XM320-alone-300x191.jpg 300w, https://hk-usa.com/wp-content/uploads/2023/09/XM320-alone-1024x651.jpg 1024w, https://hk-usa.com/wp-content/uploads/2023/09/XM320-alone-768x488.jpg 768w, https://hk-usa.com/wp-content/uploads/2023/09/XM320-alone-1536x977.jpg 1536w, https://hk-usa.com/wp-content/uploads/2023/09/XM320-alone-990x630.jpg 990w, https://hk-usa.com/wp-content/uploads/2023/09/XM320-alone-441x280.jpg 441w, https://hk-usa.com/wp-content/uploads/2023/09/XM320-alone.jpg 1920w" sizes="(max-width: 360px) 147px, (max-width: 365px) 100vw, 365px" />			
+	</a></div><div class="woocommerce-card__header"><p class="product__categories new_product_categories"><a href="https://hk-usa.com/product-category/le-mil/grenade-launchers/">Grenade Launchers, </a><a href="https://hk-usa.com/product-category/le-mil/">LE / MIL</a></p>					<p class="product__categories"><a href="https://hk-usa.com/product-category/le-mil/grenade-launchers/" rel="tag">Grenade Launchers</a>, <a href="https://hk-usa.com/product-category/le-mil/" rel="tag">LE / MIL</a></p>				<div class="woocommerce-loop-product__title"><a href="https://hk-usa.com/product/glm/" aria-label="GLM" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">GLM</a></div>
+<a href="https://hk-usa.com/product/glm/" data-quantity="1" class="button product_type_simple" data-product_id="2135" data-product_sku="" aria-label="Read more about &ldquo;GLM&rdquo;" aria-describedby="" rel="nofollow">Read more</a></div></li>
+<li class="product type-product post-2171 status-publish last instock product_cat-le-mil product_cat-semi-automatic-pistols product_tag-vp9l-or product_tag-vp9l-or-leo has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="woocommerce-image__wrapper"><a href="https://hk-usa.com/product/vp9l-or-leo/" aria-label="VP9L OR" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" width="365" height="243" src="https://hk-usa.com/wp-content/uploads/2023/09/Photoroom_20250331_202733-e1743467365957-365x243.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" srcset="https://hk-usa.com/wp-content/uploads/2023/09/Photoroom_20250331_202733-e1743467365957-365x243.png 365w, https://hk-usa.com/wp-content/uploads/2023/09/Photoroom_20250331_202733-e1743467365957-300x200.png 300w, https://hk-usa.com/wp-content/uploads/2023/09/Photoroom_20250331_202733-e1743467365957-1024x683.png 1024w, https://hk-usa.com/wp-content/uploads/2023/09/Photoroom_20250331_202733-e1743467365957-768x512.png 768w, https://hk-usa.com/wp-content/uploads/2023/09/Photoroom_20250331_202733-e1743467365957-990x660.png 990w, https://hk-usa.com/wp-content/uploads/2023/09/Photoroom_20250331_202733-e1743467365957-441x294.png 441w, https://hk-usa.com/wp-content/uploads/2023/09/Photoroom_20250331_202733-e1743467365957-670x447.png 670w, https://hk-usa.com/wp-content/uploads/2023/09/Photoroom_20250331_202733-e1743467365957-150x100.png 150w, https://hk-usa.com/wp-content/uploads/2023/09/Photoroom_20250331_202733-e1743467365957.png 1194w" sizes="(max-width: 360px) 147px, (max-width: 365px) 100vw, 365px" />			
+	</a></div><div class="woocommerce-card__header"><p class="product__categories new_product_categories"><a href="https://hk-usa.com/product-category/le-mil/">LE / MIL, </a><a href="https://hk-usa.com/product-category/le-mil/semi-automatic-pistols/">Semi-Automatic-Pistols</a></p>					<p class="product__categories"><a href="https://hk-usa.com/product-category/le-mil/" rel="tag">LE / MIL</a>, <a href="https://hk-usa.com/product-category/le-mil/semi-automatic-pistols/" rel="tag">Semi-Automatic-Pistols</a></p>				<div class="woocommerce-loop-product__title"><a href="https://hk-usa.com/product/vp9l-or-leo/" aria-label="VP9L OR" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">VP9L OR</a></div>
+<a href="https://hk-usa.com/product/vp9l-or-leo/" data-quantity="1" class="button product_type_simple" data-product_id="2171" data-product_sku="" aria-label="Read more about &ldquo;VP9L OR&rdquo;" aria-describedby="" rel="nofollow">Read more</a></div></li>
+<li class="product type-product post-2181 status-publish first instock product_cat-le-mil product_cat-semi-automatic-pistols product_tag-hk45-compact-tactical product_tag-hk45-compact-tactical-leo has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="woocommerce-image__wrapper"><a href="https://hk-usa.com/product/hk45-compact-tactical-leo/" aria-label="HK45 COMPACT TACTICAL" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" width="365" height="244" src="https://hk-usa.com/wp-content/uploads/2023/09/hk-45c-threaded-left-365x244.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" srcset="https://hk-usa.com/wp-content/uploads/2023/09/hk-45c-threaded-left-365x244.png 365w, https://hk-usa.com/wp-content/uploads/2023/09/hk-45c-threaded-left-150x100.png 150w, https://hk-usa.com/wp-content/uploads/2023/09/hk-45c-threaded-left-670x447.png 670w, https://hk-usa.com/wp-content/uploads/2023/09/hk-45c-threaded-left-300x200.png 300w, https://hk-usa.com/wp-content/uploads/2023/09/hk-45c-threaded-left-1024x683.png 1024w, https://hk-usa.com/wp-content/uploads/2023/09/hk-45c-threaded-left-768x512.png 768w, https://hk-usa.com/wp-content/uploads/2023/09/hk-45c-threaded-left-1536x1025.png 1536w, https://hk-usa.com/wp-content/uploads/2023/09/hk-45c-threaded-left-990x661.png 990w, https://hk-usa.com/wp-content/uploads/2023/09/hk-45c-threaded-left-441x294.png 441w, https://hk-usa.com/wp-content/uploads/2023/09/hk-45c-threaded-left.png 1920w" sizes="(max-width: 360px) 147px, (max-width: 365px) 100vw, 365px" />			
+	</a></div><div class="woocommerce-card__header"><p class="product__categories new_product_categories"><a href="https://hk-usa.com/product-category/le-mil/">LE / MIL, </a><a href="https://hk-usa.com/product-category/le-mil/semi-automatic-pistols/">Semi-Automatic-Pistols</a></p>					<p class="product__categories"><a href="https://hk-usa.com/product-category/le-mil/" rel="tag">LE / MIL</a>, <a href="https://hk-usa.com/product-category/le-mil/semi-automatic-pistols/" rel="tag">Semi-Automatic-Pistols</a></p>				<div class="woocommerce-loop-product__title"><a href="https://hk-usa.com/product/hk45-compact-tactical-leo/" aria-label="HK45 COMPACT TACTICAL" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">HK45 COMPACT TACTICAL</a></div>
+<a href="https://hk-usa.com/product/hk45-compact-tactical-leo/" data-quantity="1" class="button product_type_simple" data-product_id="2181" data-product_sku="" aria-label="Read more about &ldquo;HK45 COMPACT TACTICAL&rdquo;" aria-describedby="" rel="nofollow">Read more</a></div></li>
+<li class="product type-product post-4840 status-publish instock product_cat-commercial product_cat-pistols product_tag-cc9 has-post-thumbnail featured shipping-taxable product-type-simple">
+	<div class="woocommerce-image__wrapper"><a href="https://hk-usa.com/product/cc9/" aria-label="CC9" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" width="365" height="243" src="https://hk-usa.com/wp-content/uploads/2025/01/cc92-365x243.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" srcset="https://hk-usa.com/wp-content/uploads/2025/01/cc92-365x243.png 365w, https://hk-usa.com/wp-content/uploads/2025/01/cc92-300x200.png 300w, https://hk-usa.com/wp-content/uploads/2025/01/cc92-1024x683.png 1024w, https://hk-usa.com/wp-content/uploads/2025/01/cc92-768x512.png 768w, https://hk-usa.com/wp-content/uploads/2025/01/cc92-1536x1024.png 1536w, https://hk-usa.com/wp-content/uploads/2025/01/cc92-990x660.png 990w, https://hk-usa.com/wp-content/uploads/2025/01/cc92-441x294.png 441w, https://hk-usa.com/wp-content/uploads/2025/01/cc92-670x447.png 670w, https://hk-usa.com/wp-content/uploads/2025/01/cc92-150x100.png 150w, https://hk-usa.com/wp-content/uploads/2025/01/cc92.png 1920w" sizes="(max-width: 360px) 147px, (max-width: 365px) 100vw, 365px" />			
+	</a></div><div class="woocommerce-card__header"><p class="product__categories new_product_categories"><a href="https://hk-usa.com/product-category/commercial/pistols/">Pistols</a></p>					<p class="product__categories"><a href="https://hk-usa.com/product-category/commercial/" rel="tag">Commercial</a>, <a href="https://hk-usa.com/product-category/commercial/pistols/" rel="tag">Pistols</a></p>				<div class="woocommerce-loop-product__title"><a href="https://hk-usa.com/product/cc9/" aria-label="CC9" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">CC9</a></div>
+<a href="https://hk-usa.com/product/cc9/" data-quantity="1" class="button product_type_simple" data-product_id="4840" data-product_sku="" aria-label="Read more about &ldquo;CC9&rdquo;" aria-describedby="" rel="nofollow">Read more</a></div></li>
+<li class="product type-product post-2124 status-publish instock product_cat-grenade-launchers product_cat-le-mil product_tag-hk169 has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="woocommerce-image__wrapper"><a href="https://hk-usa.com/product/hk169/" aria-label="HK169" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" width="365" height="257" src="https://hk-usa.com/wp-content/uploads/2023/09/HK169-Right-AUG2018-Web-365x257.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" srcset="https://hk-usa.com/wp-content/uploads/2023/09/HK169-Right-AUG2018-Web-365x257.jpg 365w, https://hk-usa.com/wp-content/uploads/2023/09/HK169-Right-AUG2018-Web-150x106.jpg 150w, https://hk-usa.com/wp-content/uploads/2023/09/HK169-Right-AUG2018-Web-670x472.jpg 670w, https://hk-usa.com/wp-content/uploads/2023/09/HK169-Right-AUG2018-Web-300x212.jpg 300w, https://hk-usa.com/wp-content/uploads/2023/09/HK169-Right-AUG2018-Web-1024x722.jpg 1024w, https://hk-usa.com/wp-content/uploads/2023/09/HK169-Right-AUG2018-Web-768x542.jpg 768w, https://hk-usa.com/wp-content/uploads/2023/09/HK169-Right-AUG2018-Web-1536x1083.jpg 1536w, https://hk-usa.com/wp-content/uploads/2023/09/HK169-Right-AUG2018-Web-990x698.jpg 990w, https://hk-usa.com/wp-content/uploads/2023/09/HK169-Right-AUG2018-Web-441x311.jpg 441w, https://hk-usa.com/wp-content/uploads/2023/09/HK169-Right-AUG2018-Web.jpg 1920w" sizes="(max-width: 360px) 147px, (max-width: 365px) 100vw, 365px" />			
+	</a></div><div class="woocommerce-card__header"><p class="product__categories new_product_categories"><a href="https://hk-usa.com/product-category/le-mil/grenade-launchers/">Grenade Launchers, </a><a href="https://hk-usa.com/product-category/le-mil/">LE / MIL</a></p>					<p class="product__categories"><a href="https://hk-usa.com/product-category/le-mil/grenade-launchers/" rel="tag">Grenade Launchers</a>, <a href="https://hk-usa.com/product-category/le-mil/" rel="tag">LE / MIL</a></p>				<div class="woocommerce-loop-product__title"><a href="https://hk-usa.com/product/hk169/" aria-label="HK169" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">HK169</a></div>
+<a href="https://hk-usa.com/product/hk169/" data-quantity="1" class="button product_type_simple" data-product_id="2124" data-product_sku="" aria-label="Read more about &ldquo;HK169&rdquo;" aria-describedby="" rel="nofollow">Read more</a></div></li>
+<li class="product type-product post-2180 status-publish last instock product_cat-le-mil product_cat-semi-automatic-pistols product_tag-hk45-compact product_tag-hk45-compact-leo has-post-thumbnail shipping-taxable product-type-simple">
+	<div class="woocommerce-image__wrapper"><a href="https://hk-usa.com/product/hk45-compact-leo/" aria-label="HK45 COMPACT" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" width="365" height="244" src="https://hk-usa.com/wp-content/uploads/2023/09/hk45c_left-365x244.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" srcset="https://hk-usa.com/wp-content/uploads/2023/09/hk45c_left-365x244.png 365w, https://hk-usa.com/wp-content/uploads/2023/09/hk45c_left-150x100.png 150w, https://hk-usa.com/wp-content/uploads/2023/09/hk45c_left-670x447.png 670w, https://hk-usa.com/wp-content/uploads/2023/09/hk45c_left-300x200.png 300w, https://hk-usa.com/wp-content/uploads/2023/09/hk45c_left-1024x683.png 1024w, https://hk-usa.com/wp-content/uploads/2023/09/hk45c_left-768x512.png 768w, https://hk-usa.com/wp-content/uploads/2023/09/hk45c_left-1536x1025.png 1536w, https://hk-usa.com/wp-content/uploads/2023/09/hk45c_left-990x661.png 990w, https://hk-usa.com/wp-content/uploads/2023/09/hk45c_left-441x294.png 441w, https://hk-usa.com/wp-content/uploads/2023/09/hk45c_left.png 1920w" sizes="(max-width: 360px) 147px, (max-width: 365px) 100vw, 365px" />			
+	</a></div><div class="woocommerce-card__header"><p class="product__categories new_product_categories"><a href="https://hk-usa.com/product-category/le-mil/">LE / MIL, </a><a href="https://hk-usa.com/product-category/le-mil/semi-automatic-pistols/">Semi-Automatic-Pistols</a></p>					<p class="product__categories"><a href="https://hk-usa.com/product-category/le-mil/" rel="tag">LE / MIL</a>, <a href="https://hk-usa.com/product-category/le-mil/semi-automatic-pistols/" rel="tag">Semi-Automatic-Pistols</a></p>				<div class="woocommerce-loop-product__title"><a href="https://hk-usa.com/product/hk45-compact-leo/" aria-label="HK45 COMPACT" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">HK45 COMPACT</a></div>
+<a href="https://hk-usa.com/product/hk45-compact-leo/" data-quantity="1" class="button product_type_simple" data-product_id="2180" data-product_sku="" aria-label="Read more about &ldquo;HK45 COMPACT&rdquo;" aria-describedby="" rel="nofollow">Read more</a></div></li>
+</ul>
+</div></section>
+	</div>
+
+
+		</div><!-- .col-full -->
+	</div><!-- #content -->
+
+</div>
+
+			<div data-elementor-type="footer" data-elementor-id="2154" class="elementor elementor-2154 elementor-location-footer" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-e15fcd7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e15fcd7" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-938506b" data-id="938506b" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-f5ec7b0 elementor-widget elementor-widget-image" data-id="f5ec7b0" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img width="157" height="97" src="https://hk-usa.com/wp-content/uploads/2023/08/Path-1.png" class="attachment-full size-full wp-image-23" alt="" srcset="https://hk-usa.com/wp-content/uploads/2023/08/Path-1.png 157w, https://hk-usa.com/wp-content/uploads/2023/08/Path-1-150x93.png 150w" sizes="(max-width: 360px) 147px, (max-width: 157px) 100vw, 157px" />													</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-eb0f271 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="eb0f271" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2b82c06" data-id="2b82c06" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-90c32aa elementor-tablet-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="90c32aa" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://hk-usa.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="/product-category/civilian/pistols/">
+
+											<span class="elementor-icon-list-text">Pistols</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/product-category/civilian/rifles/">
+
+											<span class="elementor-icon-list-text">Rifles</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/dealer-locator/">
+
+											<span class="elementor-icon-list-text"><div class ="red">Dealer Locator</div></span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-346c7f1" data-id="346c7f1" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-ca8ed4d elementor-widget elementor-widget-heading" data-id="ca8ed4d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Company</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7d8ff50 elementor-tablet-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="7d8ff50" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=adf53548-e5ca-4fce-b821-f7b448b7dedf&#038;ccId=19000101_000001&#038;lang=en_US" target="_blank">
+
+											<span class="elementor-icon-list-text">Careers</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/company/">
+
+											<span class="elementor-icon-list-text">About</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/forum/">
+
+											<span class="elementor-icon-list-text">Forum</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-32a3270 elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-heading" data-id="32a3270" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">MIL/LEO</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7925886 elementor-tablet-align-center elementor-hidden-tablet elementor-hidden-mobile elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="7925886" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://hk-usa.com/training/" target="_blank">
+
+											<span class="elementor-icon-list-text">HK Training and Technical Service</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/product-category/le-mil/">
+
+											<span class="elementor-icon-list-text">View LE Product List</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-818bb59" data-id="818bb59" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-e590563 elementor-widget elementor-widget-heading" data-id="e590563" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Shop</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-da23157 elementor-tablet-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="da23157" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://us.hkwebshop.com/hkstorefront/?site=hk" target="_blank">
+
+											<span class="elementor-icon-list-text"><div class ="red">Web Store</div></span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.hogueinc.com/knives/hk" target="_blank">
+
+											<span class="elementor-icon-list-text">Knives</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-8b1863d" data-id="8b1863d" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-92bf399 elementor-widget elementor-widget-heading" data-id="92bf399" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Support</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1f2ebe0 elementor-tablet-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="1f2ebe0" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://hk-usa.com/contact/">
+
+											<span class="elementor-icon-list-text"><div class ="red">Contact Us</div></span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/warranty-registration/">
+
+											<span class="elementor-icon-list-text">Product Registration</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/wp-content/uploads/2023/09/RMA-Authorization-Form.pdf">
+
+											<span class="elementor-icon-list-text">Repair Authorization Form</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/warranty/">
+
+											<span class="elementor-icon-list-text">Warranty</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/faq/">
+
+											<span class="elementor-icon-list-text">FAQ</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-fb3540e" data-id="fb3540e" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-906e94b elementor-widget elementor-widget-shortcode" data-id="906e94b" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode"><script type="text/javascript"></script>
+                <div class='gf_browser_unknown gform_wrapper gform-theme gform-theme--foundation gform-theme--framework gform-theme--orbital footer-signup_wrapper' data-form-theme='orbital' data-form-index='0' id='gform_wrapper_6' ><style>#gform_wrapper_6[data-form-index="0"].gform-theme,[data-parent-form="6_0"]{--gf-color-primary: #204ce5;--gf-color-primary-rgb: 32, 76, 229;--gf-color-primary-contrast: #fff;--gf-color-primary-contrast-rgb: 255, 255, 255;--gf-color-primary-darker: #001AB3;--gf-color-primary-lighter: #527EFF;--gf-color-secondary: #fff;--gf-color-secondary-rgb: 255, 255, 255;--gf-color-secondary-contrast: #112337;--gf-color-secondary-contrast-rgb: 17, 35, 55;--gf-color-secondary-darker: #F5F5F5;--gf-color-secondary-lighter: #FFFFFF;--gf-color-out-ctrl-light: rgba(17, 35, 55, 0.1);--gf-color-out-ctrl-light-rgb: 17, 35, 55;--gf-color-out-ctrl-light-darker: rgba(104, 110, 119, 0.35);--gf-color-out-ctrl-light-lighter: #F5F5F5;--gf-color-out-ctrl-dark: #585e6a;--gf-color-out-ctrl-dark-rgb: 88, 94, 106;--gf-color-out-ctrl-dark-darker: #112337;--gf-color-out-ctrl-dark-lighter: rgba(17, 35, 55, 0.65);--gf-color-in-ctrl: #fff;--gf-color-in-ctrl-rgb: 255, 255, 255;--gf-color-in-ctrl-contrast: #112337;--gf-color-in-ctrl-contrast-rgb: 17, 35, 55;--gf-color-in-ctrl-darker: #F5F5F5;--gf-color-in-ctrl-lighter: #FFFFFF;--gf-color-in-ctrl-primary: #204ce5;--gf-color-in-ctrl-primary-rgb: 32, 76, 229;--gf-color-in-ctrl-primary-contrast: #fff;--gf-color-in-ctrl-primary-contrast-rgb: 255, 255, 255;--gf-color-in-ctrl-primary-darker: #001AB3;--gf-color-in-ctrl-primary-lighter: #527EFF;--gf-color-in-ctrl-light: rgba(17, 35, 55, 0.1);--gf-color-in-ctrl-light-rgb: 17, 35, 55;--gf-color-in-ctrl-light-darker: rgba(104, 110, 119, 0.35);--gf-color-in-ctrl-light-lighter: #F5F5F5;--gf-color-in-ctrl-dark: #585e6a;--gf-color-in-ctrl-dark-rgb: 88, 94, 106;--gf-color-in-ctrl-dark-darker: #112337;--gf-color-in-ctrl-dark-lighter: rgba(17, 35, 55, 0.65);--gf-radius: 3px;--gf-font-size-secondary: 14px;--gf-font-size-tertiary: 13px;--gf-icon-ctrl-number: url("data:image/svg+xml,%3Csvg width='8' height='14' viewBox='0 0 8 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 0C4.26522 5.96046e-08 4.51957 0.105357 4.70711 0.292893L7.70711 3.29289C8.09763 3.68342 8.09763 4.31658 7.70711 4.70711C7.31658 5.09763 6.68342 5.09763 6.29289 4.70711L4 2.41421L1.70711 4.70711C1.31658 5.09763 0.683417 5.09763 0.292893 4.70711C-0.0976311 4.31658 -0.097631 3.68342 0.292893 3.29289L3.29289 0.292893C3.48043 0.105357 3.73478 0 4 0ZM0.292893 9.29289C0.683417 8.90237 1.31658 8.90237 1.70711 9.29289L4 11.5858L6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289C8.09763 9.68342 8.09763 10.3166 7.70711 10.7071L4.70711 13.7071C4.31658 14.0976 3.68342 14.0976 3.29289 13.7071L0.292893 10.7071C-0.0976311 10.3166 -0.0976311 9.68342 0.292893 9.29289Z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-icon-ctrl-select: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.292893 0.292893C0.683417 -0.097631 1.31658 -0.097631 1.70711 0.292893L5 3.58579L8.29289 0.292893C8.68342 -0.0976311 9.31658 -0.0976311 9.70711 0.292893C10.0976 0.683417 10.0976 1.31658 9.70711 1.70711L5.70711 5.70711C5.31658 6.09763 4.68342 6.09763 4.29289 5.70711L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683418 0.292893 0.292893Z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-icon-ctrl-search: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' width='640' height='640'%3E%3Cpath d='M256 128c-70.692 0-128 57.308-128 128 0 70.691 57.308 128 128 128 70.691 0 128-57.309 128-128 0-70.692-57.309-128-128-128zM64 256c0-106.039 85.961-192 192-192s192 85.961 192 192c0 41.466-13.146 79.863-35.498 111.248l154.125 154.125c12.496 12.496 12.496 32.758 0 45.254s-32.758 12.496-45.254 0L367.248 412.502C335.862 434.854 297.467 448 256 448c-106.039 0-192-85.962-192-192z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-label-space-y-secondary: var(--gf-label-space-y-md-secondary);--gf-ctrl-border-color: #686e77;--gf-ctrl-size: var(--gf-ctrl-size-md);--gf-ctrl-label-color-primary: #112337;--gf-ctrl-label-color-secondary: #112337;--gf-ctrl-choice-size: var(--gf-ctrl-choice-size-md);--gf-ctrl-checkbox-check-size: var(--gf-ctrl-checkbox-check-size-md);--gf-ctrl-radio-check-size: var(--gf-ctrl-radio-check-size-md);--gf-ctrl-btn-font-size: var(--gf-ctrl-btn-font-size-md);--gf-ctrl-btn-padding-x: var(--gf-ctrl-btn-padding-x-md);--gf-ctrl-btn-size: var(--gf-ctrl-btn-size-md);--gf-ctrl-btn-border-color-secondary: #686e77;--gf-ctrl-file-btn-bg-color-hover: #EBEBEB;--gf-field-img-choice-size: var(--gf-field-img-choice-size-md);--gf-field-img-choice-card-space: var(--gf-field-img-choice-card-space-md);--gf-field-img-choice-check-ind-size: var(--gf-field-img-choice-check-ind-size-md);--gf-field-img-choice-check-ind-icon-size: var(--gf-field-img-choice-check-ind-icon-size-md);--gf-field-pg-steps-number-color: rgba(17, 35, 55, 0.8);}</style>
+                        <div class='gform_heading'>
+                            <h2 class="gform_title">Offers</h2>
+                            <p class='gform_description'></p>
+							<p class='gform_required_legend'>&quot;<span class="gfield_required gfield_required_asterisk">*</span>&quot; indicates required fields</p>
+                        </div><form method='post' enctype='multipart/form-data'  id='gform_6' class='footer-signup' action='/wp-content/uploads/2023/11/VP9_R-1-scaled.jpg' data-formid='6' novalidate>
+                        <div class='gform-body gform_body'><div id='gform_fields_6' class='gform_fields top_label form_sublabel_below description_below validation_below'><fieldset id="field_6_1" class="gfield gfield--type-email gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  data-js-reload="field_6_1" ><legend class='gfield_label gform-field-label gfield_label_before_complex' >Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></legend><div class='ginput_complex ginput_container ginput_container_email gform-grid-row' id='input_6_1_container'>
+                                <span id='input_6_1_1_container' class='ginput_left gform-grid-col gform-grid-col--size-auto'>
+                                    <input class='' type='email' name='input_1' id='input_6_1' value=''    aria-required="true" aria-invalid="false"  />
+                                    <label for='input_6_1' class='gform-field-label gform-field-label--type-sub '>Enter Email</label>
+                                </span>
+                                <span id='input_6_1_2_container' class='ginput_right gform-grid-col gform-grid-col--size-auto'>
+                                    <input class='' type='email' name='input_1_2' id='input_6_1_2' value=''    aria-required="true" aria-invalid="false"  />
+                                    <label for='input_6_1_2' class='gform-field-label gform-field-label--type-sub '>Confirm Email</label>
+                                </span>
+                                <div class='gf_clear gf_clear_complex'></div>
+                            </div></fieldset><div id="field_6_2" class="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"  data-js-reload="field_6_2" ><label class='gfield_label gform-field-label' for='input_6_2'>Comments</label><div class='ginput_container'><input name='input_2' id='input_6_2' type='text' value='' autocomplete='new-password'/></div><div class='gfield_description' id='gfield_description_6_2'>This field is for validation purposes and should be left unchanged.</div></div></div></div>
+        <div class='gform-footer gform_footer top_label'> <input type='submit' id='gform_submit_button_6' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' value='Sign Up'  /> 
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_6' value='postback' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_6' id='gform_theme_6' value='orbital' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_6' id='gform_style_settings_6' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_6' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='6' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_6' value='WyJbXSIsIjA1MjIwY2Y5Njk3NjI5MTBjNzhiODNlMTE1YTM3YzJiIl0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_6' id='gform_target_page_number_6' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_6' id='gform_source_page_number_6' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        <label class="apbct_special_field" id="apbct_label_id58730" for="apbct__email_id__gravity_form_58730">58730</label><input
+            id="apbct__email_id__gravity_form_58730"
+            class="apbct_special_field apbct__email_id__gravity_form"
+            name="apbct__email_id__gravity_form_58730"
+            type="text" size="30" maxlength="200" autocomplete="off"
+            value="58730" apbct_event_id="58730"
+            /><input id="apbct_event_id_gravity_form_58730"
+                class="apbct_special_field" name="apbct_event_id" type="hidden" value="58730" /></form>
+                        </div><script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 6, 'https://hk-usa.com/wp-content/plugins/gravityforms/images/spinner.svg', false );jQuery('#gform_ajax_frame_6').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_6');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_6').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_6').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_6').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_6').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_6').val();gformInitSpinner( 6, 'https://hk-usa.com/wp-content/plugins/gravityforms/images/spinner.svg', false );jQuery(document).trigger('gform_page_loaded', [6, current_page]);window['gf_submitting_6'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_6').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [6]);window['gf_submitting_6'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_6').text());}else{jQuery('#gform_6').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "6", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);                if (event && event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_6" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_6";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_6" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [6, current_page] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 6, currentPage: current_page } } );            gform.utils.trigger( { event: 'gform/post_render', native: false, data: { formId: 6, currentPage: current_page } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} ); 
+/* ]]> */
+</script>
+</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6a13791 elementor-shape-circle e-grid-align-left e-grid-align-mobile-center elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="6a13791" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.19.0 - 26-02-2024 */
+.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container{line-height:1;font-size:0}.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid{display:inline-grid}.elementor-widget-social-icons .elementor-grid{grid-column-gap:var(--grid-column-gap,5px);grid-row-gap:var(--grid-row-gap,5px);grid-template-columns:var(--grid-template-columns);justify-content:var(--justify-content,center);justify-items:var(--justify-content,center)}.elementor-icon.elementor-social-icon{font-size:var(--icon-size,25px);line-height:var(--icon-size,25px);width:calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));height:calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))}.elementor-social-icon{--e-social-icon-icon-color:#fff;display:inline-flex;background-color:#69727d;align-items:center;justify-content:center;text-align:center;cursor:pointer}.elementor-social-icon i{color:var(--e-social-icon-icon-color)}.elementor-social-icon svg{fill:var(--e-social-icon-icon-color)}.elementor-social-icon:last-child{margin:0}.elementor-social-icon:hover{opacity:.9;color:#fff}.elementor-social-icon-android{background-color:#a4c639}.elementor-social-icon-apple{background-color:#999}.elementor-social-icon-behance{background-color:#1769ff}.elementor-social-icon-bitbucket{background-color:#205081}.elementor-social-icon-codepen{background-color:#000}.elementor-social-icon-delicious{background-color:#39f}.elementor-social-icon-deviantart{background-color:#05cc47}.elementor-social-icon-digg{background-color:#005be2}.elementor-social-icon-dribbble{background-color:#ea4c89}.elementor-social-icon-elementor{background-color:#d30c5c}.elementor-social-icon-envelope{background-color:#ea4335}.elementor-social-icon-facebook,.elementor-social-icon-facebook-f{background-color:#3b5998}.elementor-social-icon-flickr{background-color:#0063dc}.elementor-social-icon-foursquare{background-color:#2d5be3}.elementor-social-icon-free-code-camp,.elementor-social-icon-freecodecamp{background-color:#006400}.elementor-social-icon-github{background-color:#333}.elementor-social-icon-gitlab{background-color:#e24329}.elementor-social-icon-globe{background-color:#69727d}.elementor-social-icon-google-plus,.elementor-social-icon-google-plus-g{background-color:#dd4b39}.elementor-social-icon-houzz{background-color:#7ac142}.elementor-social-icon-instagram{background-color:#262626}.elementor-social-icon-jsfiddle{background-color:#487aa2}.elementor-social-icon-link{background-color:#818a91}.elementor-social-icon-linkedin,.elementor-social-icon-linkedin-in{background-color:#0077b5}.elementor-social-icon-medium{background-color:#00ab6b}.elementor-social-icon-meetup{background-color:#ec1c40}.elementor-social-icon-mixcloud{background-color:#273a4b}.elementor-social-icon-odnoklassniki{background-color:#f4731c}.elementor-social-icon-pinterest{background-color:#bd081c}.elementor-social-icon-product-hunt{background-color:#da552f}.elementor-social-icon-reddit{background-color:#ff4500}.elementor-social-icon-rss{background-color:#f26522}.elementor-social-icon-shopping-cart{background-color:#4caf50}.elementor-social-icon-skype{background-color:#00aff0}.elementor-social-icon-slideshare{background-color:#0077b5}.elementor-social-icon-snapchat{background-color:#fffc00}.elementor-social-icon-soundcloud{background-color:#f80}.elementor-social-icon-spotify{background-color:#2ebd59}.elementor-social-icon-stack-overflow{background-color:#fe7a15}.elementor-social-icon-steam{background-color:#00adee}.elementor-social-icon-stumbleupon{background-color:#eb4924}.elementor-social-icon-telegram{background-color:#2ca5e0}.elementor-social-icon-thumb-tack{background-color:#1aa1d8}.elementor-social-icon-tripadvisor{background-color:#589442}.elementor-social-icon-tumblr{background-color:#35465c}.elementor-social-icon-twitch{background-color:#6441a5}.elementor-social-icon-twitter{background-color:#1da1f2}.elementor-social-icon-viber{background-color:#665cac}.elementor-social-icon-vimeo{background-color:#1ab7ea}.elementor-social-icon-vk{background-color:#45668e}.elementor-social-icon-weibo{background-color:#dd2430}.elementor-social-icon-weixin{background-color:#31a918}.elementor-social-icon-whatsapp{background-color:#25d366}.elementor-social-icon-wordpress{background-color:#21759b}.elementor-social-icon-xing{background-color:#026466}.elementor-social-icon-yelp{background-color:#af0606}.elementor-social-icon-youtube{background-color:#cd201f}.elementor-social-icon-500px{background-color:#0099e5}.elementor-shape-rounded .elementor-icon.elementor-social-icon{border-radius:10%}.elementor-shape-circle .elementor-icon.elementor-social-icon{border-radius:50%}</style>		<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-d23335f" href="https://www.facebook.com/hecklerandkoch" target="_blank">
+						<span class="elementor-screen-only"></span>
+						<svg xmlns="http://www.w3.org/2000/svg" id="Social_-_Facebook" data-name="Social - Facebook" width="50" height="50" viewBox="0 0 50 50"><rect id="BG" width="50" height="50" rx="25" fill="#d71921"></rect><path id="Icon-facebook" d="M17.5,17.334l.882-5.577H12.865V8.138c0-1.526.77-3.013,3.239-3.013h2.506V.377A31.447,31.447,0,0,0,14.161,0C9.622,0,6.655,2.671,6.655,7.507v4.25H1.609v5.577H6.655V30.816h6.21V17.334Z" transform="translate(14.391 10)" fill="#f6f6f6"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-49905e2" href="https://x.com/HecklerAndKoch" target="_blank">
+						<span class="elementor-screen-only"></span>
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 1327" width="1300" height="1327"><title>logo</title><style>		.s0 { fill: #ffffff } 	</style><path class="s0" d="m716.2 608.1l259-301.1h-61.4l-224.9 261.5-179.7-261.5h-207.2l271.7 395.4-271.7 315.8h61.4l237.5-276.1 189.8 276.1h207.2l-281.8-410.1zm-84 97.8l-27.6-39.4-219-313.3h94.3l176.8 252.9 27.5 39.3 229.7 328.7h-94.3l-187.4-268.2z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-314c915" href="https://www.instagram.com/hecklerandkoch/" target="_blank">
+						<span class="elementor-screen-only"></span>
+						<svg xmlns="http://www.w3.org/2000/svg" id="Social_-_Instagram" data-name="Social - Instagram" width="50" height="50" viewBox="0 0 50 50"><rect id="BG" width="50" height="50" rx="25" fill="#d71921"></rect><g id="Icon-instagram" transform="translate(9 9)"><path id="Path_26" data-name="Path 26" d="M9.269,3H21.806a6.269,6.269,0,0,1,6.269,6.269V21.806a6.269,6.269,0,0,1-6.269,6.269H9.269A6.269,6.269,0,0,1,3,21.806V9.269A6.269,6.269,0,0,1,9.269,3Z" transform="translate(0)" fill="none" stroke="#f6f6f6" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path><path id="Path_27" data-name="Path 27" d="M22.041,16.214a5.015,5.015,0,1,1-4.225-4.225,5.015,5.015,0,0,1,4.225,4.225Z" transform="translate(-1.488 -1.467)" fill="none" stroke="#f6f6f6" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path><path id="Path_28" data-name="Path 28" d="M26.25,9.75h0" transform="translate(-3.817 -1.108)" fill="none" stroke="#f6f6f6" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></g></svg>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-71fe984" href="https://www.youtube.com/user/HecklerKochTV" target="_blank">
+						<span class="elementor-screen-only"></span>
+						<svg xmlns="http://www.w3.org/2000/svg" id="Social_-_Youtube" data-name="Social - Youtube" width="50" height="50" viewBox="0 0 50 50"><rect id="BG" width="50" height="50" rx="25" fill="#d71921"></rect><path id="Icon-youtube" d="M32.381,8.1a4.067,4.067,0,0,0-2.829-2.911c-2.5-.688-12.5-.688-12.5-.688s-10.007,0-12.5.688A4.067,4.067,0,0,0,1.719,8.1a44.054,44.054,0,0,0-.669,7.925,44.054,44.054,0,0,0,.669,7.925,4,4,0,0,0,2.829,2.864c2.5.688,12.5.688,12.5.688s10.007,0,12.5-.688a4,4,0,0,0,2.829-2.864,44.054,44.054,0,0,0,.669-7.925A44.054,44.054,0,0,0,32.381,8.1Zm-18.6,12.788V11.16l8.364,4.864-8.364,4.864Z" transform="translate(8.109 9.721)" fill="#f6f6f6"></path></svg>					</a>
+				</span>
+					</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		
+	
+	
+
+</div><!-- #page -->
+
+<template id="tmpl-age-gate">
+        
+<div class="age-gate__wrapper">
+            <div class="age-gate__loader">
+    
+        <svg version="1.1" id="L5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+            <circle fill="currentColor" stroke="none" cx="6" cy="50" r="6">
+                <animateTransform attributeName="transform" dur="1s" type="translate" values="0 15 ; 0 -15; 0 15" repeatCount="indefinite" begin="0.1"/>
+            </circle>
+            <circle fill="currentColor" stroke="none" cx="30" cy="50" r="6">
+                <animateTransform attributeName="transform" dur="1s" type="translate" values="0 10 ; 0 -10; 0 10" repeatCount="indefinite" begin="0.2"/>
+            </circle>
+            <circle fill="currentColor" stroke="none" cx="54" cy="50" r="6">
+                <animateTransform attributeName="transform" dur="1s" type="translate" values="0 5 ; 0 -5; 0 5" repeatCount="indefinite" begin="0.3"/>
+            </circle>
+        </svg>
+    </div>
+        <div class="age-gate__background-color"></div>
+    <div class="age-gate__background">
+            </div>
+    
+    <div class="age-gate" role="dialog" aria-modal="true" aria-label="">
+    <form method="post" class="age-gate__form">
+<div class="age-gate__heading">
+            <img src="https://hk-usa.com/wp-content/uploads/2024/03/HK-Logo-w_text.jpeg" alt="HK USA"class="age-gate__heading-title age-gate__heading-title--logo" />
+    </div>
+    <h2 class="age-gate__headline">
+        You must be at least 18 years old to browse Heckler &amp; Koch’s website.    </h2>
+<p class="age-gate__subheadline">
+    </p>
+<div class="age-gate__fields">
+        
+<p class="age-gate__challenge">
+    Are you 18 years of age or older?</p>
+<div class="age-gate__buttons">
+        <button type="submit" class="age-gate__submit age-gate__submit--yes" data-submit="yes" value="1" name="age_gate[confirm]">Yes</button>
+            <button class="age-gate__submit age-gate__submit--no" data-submit="no" value="0" name="age_gate[confirm]" type="submit">No</button>
+    </div>
+    </div>
+
+<input type="hidden" name="age_gate[age]" value="9MRd26N84fSy3NwprhoXtg==" />
+<input type="hidden"  name="age_gate[nonce]" value="cffdddd7ad" /><input type="hidden" name="_wp_http_referer" value="/wp-content/uploads/2023/11/VP9_R-1-scaled.jpg" /><input type="hidden" name="age_gate[lang]" value="en" />
+    <input type="hidden" name="age_gate[confirm]" />
+    <div class="age-gate__remember-wrapper">
+        <label class="age-gate__remember">
+            <input type="checkbox" class="age-gate__remember-field" name="age_gate[remember]" value="1"  /> <span type="checkbox" class="age-gate__remember-text">Remember my choice for 30 days</span>
+        </label>
+    </div>
+    <div class="age-gate__errors"></div>
+</form>
+    </div>
+    </div>
+    </template>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/shoptimizer-child-theme\/*","\/wp-content\/themes\/shoptimizer\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://hk-usa.com/wp-admin/admin-ajax.php";
+</script>
+	<script type='text/javascript'>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel='stylesheet' id='gravity_forms_theme_reset-css' href='https://hk-usa.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-reset.min.css?ver=2.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_foundation-css' href='https://hk-usa.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-foundation.min.css?ver=2.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_framework-css' href='https://hk-usa.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-framework.min.css?ver=2.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='gravity_forms_orbital_theme-css' href='https://hk-usa.com/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-orbital-theme.min.css?ver=2.9.4' type='text/css' media='all' />
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/yith-woocommerce-ajax-product-filter-premium/assets/js/ion.range-slider.min.js?ver=2.3.1" id="ion.range-slider-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/woocommerce/assets/js/accounting/accounting.min.js?ver=0.4.2" id="accounting-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.9-wc.8.6.0" id="selectWoo-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="yith-wcan-shortcodes-js-extra">
+/* <![CDATA[ */
+var yith_wcan_shortcodes = {"query_param":"yith_wcan","supported_taxonomies":["product_cat","product_tag","pa_action","pa_caliber","pa_product-family","pa_size"],"content":"#content","change_browser_url":"1","instant_filters":"1","ajax_filters":"1","reload_on_back":"1","show_clear_filter":"","scroll_top":"","scroll_target":"","modal_on_mobile":"","session_param":"filter_session","show_current_children":"","loader":"","toggles_open_on_modal":"","mobile_media_query":"991","base_url":"https:\/\/hk-usa.com\/wp-content\/uploads\/2023\/11\/VP9_R-1-scaled.jpg\/","terms_per_page":"10","currency_format":{"symbol":"&#36;","decimal":".","thousand":",","precision":2,"format":"%s%v"},"labels":{"empty_option":"All","search_placeholder":"Search...","no_items":"No item found","show_more":"Show %d more","close":"Close","save":"Save","show_results":"Show results","clear_selection":"Clear","clear_all_selections":"Clear All"},"instant_horizontal_filter":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/yith-woocommerce-ajax-product-filter-premium/assets/js/yith-wcan-shortcodes.min.js?ver=4.30.1" id="yith-wcan-shortcodes-js"></script>
+<script type="text/javascript" id="age-gate-all-js-extra">
+/* <![CDATA[ */
+var age_gate_common = {"cookies":"Your browser does not support cookies, you may experience problems entering this site","simple":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/age-gate/dist/all.js?ver=3.3.3" id="age-gate-all-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=8.6.0" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"ajaxurl":"https:\/\/hk-usa.com\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=8.6.0" id="wc-order-attribution-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/themes/shoptimizer/assets/js/main.min.js?ver=2.6.7" id="shoptimizer-main-js"></script>
+<script type="text/javascript" id="shoptimizer-main-js-after">
+/* <![CDATA[ */
+				jQuery( document ).ready( function( $ ) {
+					$( 'body' ).on( 'added_to_cart', function( event, fragments, cart_hash ) {
+						if ( ! $( 'body' ).hasClass( 'elementor-editor-active' ) ) {
+							$( 'body' ).addClass( 'drawer-open' );
+						}
+					} );				
+				} );
+				document.addEventListener( 'DOMContentLoaded', function() {
+					document.addEventListener( 'click', function( event ) {
+						var is_inner = event.target.closest( '.shoptimizer-mini-cart-wrap' );
+						if ( ! event.target.classList.contains( 'shoptimizer-mini-cart-wrap' ) && ! is_inner ) {
+							document.querySelector( 'body' ).classList.remove( 'drawer-open' );
+						}
+						var is_inner2 = event.target.closest( '.cart-click' );
+						if ( event.target.classList.contains( 'cart-click' ) || is_inner2 ) {
+							var is_header = event.target.closest( '.site-header-cart' );
+							if ( is_header ) {
+								event.preventDefault();
+								document.querySelector( 'body' ).classList.toggle( 'drawer-open' );
+							}
+						}
+						if ( event.target.classList.contains( 'close-drawer' ) ) {
+							document.querySelector( 'body' ).classList.remove( 'drawer-open' );
+						}
+					} );
+				} );
+				var interceptor = ( function( open ) {
+					XMLHttpRequest.prototype.open = function( method, url, async, user, pass ) {
+						this.addEventListener( 'readystatechange', function() {
+						switch ( this.readyState ) {
+							case 1:
+								document.querySelector( '#ajax-loading' ).style.display = 'block';
+							break;
+							case 4:
+								document.querySelector( '#ajax-loading' ).style.display = 'none';
+							break;
+						}
+						}, false );
+						if ( async !== false ) {
+							async = true;
+						}
+						open.call( this, method, url, async, user, pass );
+					};
+				}  ( XMLHttpRequest.prototype.open ) );
+				document.addEventListener( 'DOMContentLoaded', function() {
+					document.querySelector( '#ajax-loading' ).style.display = 'none';
+				} );
+				
+
+			
+			var observer = new IntersectionObserver(function(entries) {
+				if(entries[0].intersectionRatio === 0)
+					document.querySelector('.col-full-nav').classList.add('is_stuck');
+				else if(entries[0].intersectionRatio === 1)
+					document.querySelector('.col-full-nav').classList.remove('is_stuck');
+			}, { threshold: [0,1] });
+
+			observer.observe(document.querySelector('.s-observer'));
+		
+/* ]]> */
+</script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_69d9439013642186e20bc774f7f816d6","fragment_name":"wc_fragments_69d9439013642186e20bc774f7f816d6","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=8.6.0" id="wc-cart-fragments-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hk-usa.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14" id="wp-a11y-js"></script>
+<script type="text/javascript" defer='defer' src="https://hk-usa.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.9.4" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/hk-usa.com\/wp-content\/plugins\/gravityforms\/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/hk-usa.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/hk-usa.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"c2da879db44ad3e50aab2b3fdf6519b8","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://hk-usa.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.9.4" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer='defer' src="https://hk-usa.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.9.4" id="gform_placeholder-js"></script>
+<script type="text/javascript" defer='defer' src="https://hk-usa.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=501a987060f4426fb517400c73c7fc1e" id="gform_gravityforms_utils-js"></script>
+<script type="text/javascript" defer='defer' src="https://hk-usa.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=639b4ac21c17c9dc304b05db4a3d3293" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"c2da879db44ad3e50aab2b3fdf6519b8"},"ajax":{"ajaxurl":"https:\/\/hk-usa.com\/wp-admin\/admin-ajax.php","ajax_submission_nonce":"7c069db749","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again."}}}},"hmr_dev":"","public_path":"https:\/\/hk-usa.com\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/","config_nonce":"1b21d11c95"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://hk-usa.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=dc91b64a15c979eb9acace3fe2754b5f" id="gform_gravityforms_theme-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.19.3" id="elementor-pro-webpack-runtime-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.19.3" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.19.3" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" id="elementor-pro-frontend-js-before">
+/* <![CDATA[ */
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/hk-usa.com\/wp-admin\/admin-ajax.php","nonce":"139de191e0","urls":{"assets":"https:\/\/hk-usa.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/hk-usa.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"woocommerce":{"menu_cart":{"cart_page_url":"https:\/\/hk-usa.com","checkout_page_url":"https:\/\/hk-usa.com","fragments_nonce":"44b3ff7309"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/hk-usa.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.19.3" id="elementor-pro-frontend-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.19.3","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"additional_custom_breakpoints":true,"e_swiper_latest":true,"block_editor_assets_optimize":true,"ai-layout":true,"landing-pages":true,"e_image_loading_optimization":true,"e_global_styleguide":true,"page-transitions":true,"notes":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/hk-usa.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[]},"post":{"id":0,"title":"404 - Page not found - HK USA","excerpt":""}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.19.3" id="elementor-frontend-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.19.3" id="pro-elements-handlers-js"></script>
+<script type="text/javascript" src="https://hk-usa.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.19.3" id="e-sticky-js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 6) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "6", currentPage: "1", abort: function() { this.preventDefault(); } }]);                if (event && event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_6" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_6";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_6" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [6, 1] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 6, currentPage: 1 } } );            gform.utils.trigger( { event: 'gform/post_render', native: false, data: { formId: 6, currentPage: 1 } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+</script>
+
+</body>
+</html>
