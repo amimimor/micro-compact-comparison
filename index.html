@@ -322,7 +322,6 @@
                     <select id="categoryFilter" name="categoryFilter">
                         <option value="all">All Categories</option>
                         <option value="micro">Micro Compact</option>
-                        <option value="subcompact">Subcompact</option>
                         <option value="compact">Compact</option>
                     </select>
                 </div>
@@ -424,8 +423,8 @@
             ratioText: '1.87',
             price: 485,
             features: 'Slimline design, reversible magazine catch',
-            mods: 'Upgraded Night Sights & Trigger Connector',
-            modsPrice: 125
+            mods: 'Apex Trigger Kit',
+            modsPrice: 120
         },
         {
             category: 'micro',
@@ -519,8 +518,8 @@
             ratioText: '1.97',
             price: 600,
             features: 'Subcompact "Baby Glock", Gen5 features, highly concealable',
-            mods: 'Magazine Pinky Extension',
-            modsPrice: 12
+            mods: 'Apex Trigger Kit',
+            modsPrice: 120
         },
         {
             category: 'micro',
@@ -561,7 +560,7 @@
             modsPrice: 20
         },
         {
-            category: 'subcompact',
+            category: 'micro',
             name: 'H&K VP9SK®',
             shortName: 'HK VP9SK®',
             image: 'images/hk-vp9sk.jpg',
@@ -580,7 +579,7 @@
             modsPrice: 40
         },
         {
-            category: 'subcompact',
+            category: 'micro',
             name: 'Beretta APX A1 Compact®',
             shortName: 'APX A1 C®',
             image: 'images/beretta-apx-a1-compact.jpg',
@@ -614,8 +613,8 @@
             ratioText: '1.58',
             price: 540,
             features: 'Iconic reliability, flared mag-well, nDLC finish',
-            mods: 'Upgraded Night Sights & Trigger Connector',
-            modsPrice: 95
+            mods: 'Apex Trigger Kit',
+            modsPrice: 120
         },
         {
             category: 'compact',
@@ -749,25 +748,6 @@
             features: 'Competition-ready, smooth action, durable build',
             mods: 'Surefire X300 Weapon Light',
             modsPrice: 320
-        },
-        {
-            category: 'compact',
-            name: 'Beretta APX A1 Full Size®',
-            shortName: 'APX A1 FS®',
-            image: 'images/beretta-apx-a1.jpg',
-            length: 7.5,
-            height: 5.6,
-            width: 1.3,
-            weight: 29.0,
-            barrel: 4.25,
-            capacity: 17,
-            capacityText: '17',
-            ratio: 1.71,
-            ratioText: '1.71',
-            price: 529,
-            features: 'Full-size duty pistol, aggressive slide serrations, optics-ready',
-            mods: 'Tungsten Guide Rod',
-            modsPrice: 80
         }
         ];
 
@@ -856,7 +836,7 @@
                 categories[gun.category].push(gun);
             });
 
-            const categoryOrder = ['micro', 'subcompact', 'compact'];
+            const categoryOrder = ['micro', 'compact'];
 
             for (const category of categoryOrder) {
                 if (categories[category] && categories[category].length > 0) {
@@ -905,7 +885,7 @@
                                     <div class="spec-value">${gun.capacityText}</div>
                                 </div>
                                  <div class="spec-item">
-                                    <div class="spec-label">W/H Ratio</div>
+                                    <div class="spec-label">Wt/Cap Ratio</div>
                                     <div class="spec-value">${gun.ratioText}</div>
                                 </div>
                             </div>
@@ -981,7 +961,7 @@
             positioning and feature sets that often place them in a slightly different category.</p>
         <h3>Legend</h3>
         <p><strong>L:</strong> Length | <strong>H:</strong> Height | <strong>W:</strong> Width |
-            <strong>Volume:</strong> L &times; H &times; W | <strong>W/H Ratio:</strong> Width-to-Height Ratio
+            <strong>Volume:</strong> L &times; H &times; W | <strong>Wt/Cap Ratio:</strong> Weight-to-Capacity Ratio
         </p>
     </div>
     </div>
